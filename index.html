@@ -107,6 +107,7 @@
             </svg>
         );
 
+        // (圖示保持不變，為節省篇幅省略部分重複定義，保留核心圖示)
         const Calendar = (props) => <IconWrapper {...props}><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></IconWrapper>;
         const Clock = (props) => <IconWrapper {...props}><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></IconWrapper>;
         const Instagram = (props) => <IconWrapper {...props}><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></IconWrapper>;
@@ -142,7 +143,7 @@
         const Gift = (props) => <IconWrapper {...props}><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></IconWrapper>;
         const Megaphone = (props) => <IconWrapper {...props}><path d="m3 11 18-5v12L3 14v-3z"></path><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path></IconWrapper>;
         const ArrowLeft = (props) => <IconWrapper {...props}><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></IconWrapper>;
-        const Settings = (props) => <IconWrapper {...props}><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></IconWrapper>;
+        const Settings = (props) => <IconWrapper {...props}><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></IconWrapper>;
         const Archive = (props) => <IconWrapper {...props}><polyline points="21 8 21 21 3 21 3 8"></polyline><rect x="1" y="3" width="22" height="5"></rect><line x1="10" y1="12" x2="14" y2="12"></line></IconWrapper>;
         const Dice = (props) => <IconWrapper {...props}><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><circle cx="16" cy="8" r="2"></circle><circle cx="8" cy="16" r="2"></circle><circle cx="8" cy="8" r="2"></circle><circle cx="16" cy="16" r="2"></circle><circle cx="12" cy="12" r="2"></circle></IconWrapper>;
 
@@ -156,28 +157,29 @@
 
         // 更新分類與標籤結構
         const CATEGORY_LABELS = {
-            // 原有商業類 (合併新品與促銷)
-            'new_arrival': { label: '✨ 新品/促銷', icon: '🛍️', color: 'bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700' },
-            'greeting':    { label: '❤️ 節慶祝福', icon: '🎁', color: 'bg-red-50 text-red-700 border-red-100' },
-            'announcement':{ label: '📢 重要佈告', icon: '📝', color: 'bg-slate-100 text-slate-700 border-slate-200' },
-            'feature':     { label: '🔍 質感/教學', icon: '✨', color: 'bg-blue-50 text-blue-700 border-blue-100' },
-            'interaction': { label: '💬 互動/徵圖', icon: '📸', color: 'bg-orange-50 text-orange-700 border-orange-100' },
+            // 原有商業類
+            'new_arrival': { label: '✨ 新品/現貨', icon: '🦖', color: 'bg-purple-100 text-purple-700' },
+            'promotion':   { label: '🔥 團購/優惠', icon: '🎁', color: 'bg-red-100 text-red-700' },
+            'announcement':{ label: '📢 校稿/公告', icon: '📝', color: 'bg-slate-200 text-slate-700' },
             
-            // --- Threads 專用 6 大分類 (v3.0 核心) ---
-            'th_chat':     { label: '☕ 日常聊天', icon: '💬', color: 'bg-stone-100 text-stone-600 border-stone-200' },
-            'th_growth':   { label: '📈 增粉互動', icon: '🤝', color: 'bg-blue-50 text-blue-600 border-blue-200' },
-            'th_brand':    { label: '🧡 品牌陪伴', icon: '🧸', color: 'bg-orange-50 text-orange-600 border-orange-200' },
-            'th_obs':      { label: '🧐 觀察/技巧', icon: '💡', color: 'bg-cyan-50 text-cyan-600 border-cyan-200' },
-            'th_prod':     { label: '🎒 低調帶貨', icon: '🛒', color: 'bg-purple-50 text-purple-600 border-purple-200' },
-            'th_emo':      { label: '🫂 情緒共鳴', icon: '❤️', color: 'bg-rose-50 text-rose-600 border-rose-200' },
-        };
+            // 新增附件中的分類
+            'greeting':    { label: '❤️ 節慶/開學', icon: '🎒', color: 'bg-pink-100 text-pink-700' },
+            'feature':     { label: '🔍 質感/教學', icon: '✨', color: 'bg-blue-100 text-blue-700' },
+            'interaction': { label: '💬 互動/徵圖', icon: '📸', color: 'bg-orange-100 text-orange-700' },
+            'threads':     { label: '🧵 小編碎碎念', icon: '🧶', color: 'bg-emerald-50 text-emerald-800 border border-emerald-200' },
 
-        // v3.0 新增：Threads 狀態標籤群組
-        const THREADS_TAG_GROUPS = {
-            '🧠 狀態': ['#沒靈感', '#很忙', '#低能量', '#想聊天', '#想衝粉', '#今天很累', '#隨便發'],
-            '⏱ 時間': ['#30秒可發', '#1分鐘完成', '#不用想', '#直接貼'],
-            '📈 效果': ['#高回覆', '#容易被回', '#引戰安全', '#適合新帳', '#老粉共鳴'],
-            '💬 風格': ['#小編口語', '#朋友聊天', '#輕鬆', '#真心話', '#碎念系']
+            // 12 類 Threads 策略 (保留詳細分類)
+            'morning':     { label: '☀️ 早安/日常', icon: '👋', color: 'bg-amber-100 text-amber-700' },
+            'murmur':      { label: '💬 小編碎念', icon: '🤐', color: 'bg-gray-100 text-gray-700' },
+            'startup':     { label: '🌱 創業日記', icon: '🪜', color: 'bg-emerald-100 text-emerald-700' },
+            'growth':      { label: '📈 增粉/經營', icon: '📊', color: 'bg-blue-100 text-blue-700' },
+            'traffic':     { label: '👀 流量觀察', icon: '📉', color: 'bg-indigo-100 text-indigo-700' },
+            'support':     { label: '🤝 小編互助', icon: '🙋', color: 'bg-pink-100 text-pink-700' },
+            'behind':      { label: '🎬 品牌幕後', icon: '📦', color: 'bg-orange-100 text-orange-700' },
+            'tips':        { label: '💡 輕知識',   icon: '🧠', color: 'bg-cyan-100 text-cyan-700' },
+            'energy':      { label: '🍀 開運/正能量', icon: '✨', color: 'bg-yellow-100 text-yellow-700' },
+            'seasonal':    { label: '🗓️ 節氣/月份', icon: '🎐', color: 'bg-teal-100 text-teal-700' },
+            'lazy':        { label: '😶 放空/偷懶', icon: '🫥', color: 'bg-slate-100 text-slate-500' },
         };
 
         // AI Tones Definition
@@ -192,188 +194,89 @@
             { id: 'humorous', label: '🤣 幽默有趣', desc: '適合互動、輕鬆話題', platforms: 'Instagram (限動)' },
         ];
 
-        // 擴充後的模板庫 (整合所有模版 + Threads 6大類)
+        // 擴充後的模板庫 (整合所有模版)
         const TEMPLATE_LIBRARY = [
-            // --- 一、Threads｜小編日常聊天 ---
-            { id: "th_new_01", mainCategory: "th_chat", subCategory: "日常", title: "聊天｜不知道發什麼", platforms: ["threads"], mood: "☕ 輕鬆", usageTip: "⏱️ 30秒可發", tags: ["#沒靈感", "#日常", "#輕鬆"], content: "Ashun+ 小編今天想跟你聊聊：\n\n有人也是打開 Threads，卻不知道要說什麼嗎？" },
-            { id: "th_new_02", mainCategory: "th_chat", subCategory: "打招呼", title: "聊天｜單純打招呼", platforms: ["threads"], mood: "👋 友善", usageTip: "🧠 不用想", tags: ["#打招呼", "#輕鬆"], content: "今天沒什麼重大的事，\n\n但還是想上來跟大家打個招呼 👋" },
-            { id: "th_new_03", mainCategory: "th_chat", subCategory: "偷懶", title: "聊天｜偷滑Threads", platforms: ["threads"], mood: "🤫 偷偷", usageTip: "⏱️ 30秒可發", tags: ["#偷懶", "#互動", "#真心話"], content: "小編偷偷問，\n\n你現在是在上班、上課，還是在偷滑 Threads？" },
-            { id: "th_new_04", mainCategory: "th_chat", subCategory: "狀態", title: "聊天｜今日狀態", platforms: ["threads"], mood: "📝 記錄", usageTip: "📊 互動型", tags: ["#狀態", "#互動", "#選擇題"], content: "今天的我：\n\n☐ 很認真\n\n☑ 有點累\n\n☐ 想放假\n你呢？" },
-            { id: "th_new_05", mainCategory: "th_chat", subCategory: "選擇", title: "聊天｜做一件小事", platforms: ["threads"], mood: "🌱 輕鬆", usageTip: "🧠 不用想", tags: ["#提問", "#輕鬆"], content: "如果今天只做一件小事就好，\n\n你會選哪一件？" },
-            { id: "th_new_06", mainCategory: "th_chat", subCategory: "自嘲", title: "聊天｜努力狀態", platforms: ["threads"], mood: "😂 有趣", usageTip: "⏱️ 1分鐘完成", tags: ["#狀態", "#自嘲", "#小編口語"], content: "小編今天的狀態大概是：\n\n有在努力，但沒有很用力 😂" },
-            { id: "th_new_07", mainCategory: "th_chat", subCategory: "好奇", title: "聊天｜大家在忙什麼", platforms: ["threads"], mood: "👀 好奇", usageTip: "💬 想聊天", tags: ["#好奇", "#夜貓子", "#想聊天"], content: "突然很好奇，\n\n現在還在線上的你，在忙什麼？" },
-            { id: "th_new_08", mainCategory: "th_chat", subCategory: "陪伴", title: "聊天｜一起滑Threads", platforms: ["threads"], mood: "🤝 陪伴", usageTip: "💤 低能量日", tags: ["#陪伴", "#放鬆", "#低能量"], content: "今天不想教你什麼，\n\n只想跟你一起滑一下 Threads。" },
+            // --- ① 早安／日常打招呼 ---
+            { id: "mor_01", mainCategory: "morning", subCategory: "早安", title: "早安｜精神喊話", platforms: ["threads", "story"], mood: "☀️ 正向", usageTip: "💡 適合週一早上喚醒大家", tags: ["#早安", "#MondayBlue"], content: "早安！☀️\n小編已經在位置上了。\n\n雖然靈魂還在床上，\n但手指已經準備好回訊息了。\n\n大家今天也要加油喔！💪\n#早安 #打工人 #精神喊話" },
+            { id: "mor_02", mainCategory: "morning", subCategory: "上架", title: "日常｜上架日常", platforms: ["threads", "story"], mood: "💻 忙碌", usageTip: "💡 讓客人知道你有在做事", tags: ["#新品", "#上架中"], content: "今天也是努力上架的一天 🦖\n\n電腦開著、咖啡泡好，\n準備把新品美照發上來轟炸大家囉！\n\n有人也在等新品嗎？🙋‍♀️\n#小編日常 #上架地獄" },
+            
+            // --- ② 小編沒事碎念 ---
+            { id: "mur_01", mainCategory: "murmur", subCategory: "安靜", title: "碎念｜後台好安靜", platforms: ["threads"], mood: "🥲 討拍", usageTip: "💡 沒人理你時發這篇", tags: ["#寂寞", "#聊天"], content: "今天的後台好安靜...\n連廣告推銷的訊息都沒有 🥲\n\n有人在線嗎？\n隨便留個貼圖讓我知道我不孤單 👇\n#在線等 #聊天" },
+            { id: "mur_02", mainCategory: "murmur", subCategory: "選擇", title: "碎念｜午餐吃什麼", platforms: ["threads"], mood: "🤔 困惑", usageTip: "💡 萬用互動話題", tags: ["#選擇困難", "#午餐"], content: "每天最困難的決定：\n午餐吃什麼？🍱\n\nA. 便當\nB. 麵店\nC. 便利商店\n\n請作答！👇\n#日常煩惱 #民以食為天" },
 
-            // --- 二、Threads｜早安 / 晚安 / 時間感貼文 ---
-            { id: "th_new_09", mainCategory: "th_chat", subCategory: "早安", title: "早安｜順利一點", platforms: ["threads"], mood: "🌤️ 溫暖", usageTip: "☀️ 早安文", tags: ["#早安", "#正能量", "#暖心"], content: "早安 Threads 🌤\n\n希望你今天遇到的事情，都比昨天順一點。" },
-            { id: "th_new_10", mainCategory: "th_chat", subCategory: "早安", title: "早安｜記得喝水", platforms: ["threads"], mood: "💧 貼心", usageTip: "☀️ 早安文", tags: ["#早安", "#關心", "#小提醒"], content: "早安，\n\n如果今天很忙，記得喝水。" },
-            { id: "th_new_11", mainCategory: "th_chat", subCategory: "晚安", title: "晚安｜撐過來了", platforms: ["threads"], mood: "🌙 慰藉", usageTip: "💤 晚安文", tags: ["#晚安", "#回顧", "#辛苦了"], content: "晚上好，\n\n今天有哪一刻讓你覺得「還好我撐過來了」？" },
-            { id: "th_new_12", mainCategory: "th_chat", subCategory: "晚安", title: "晚安｜睡前看看", platforms: ["threads"], mood: "🛌 關心", usageTip: "💤 晚安文", tags: ["#晚安", "#問候", "#聊天"], content: "準備睡覺前上來看看大家，\n\n你們今天過得怎麼樣？" },
-            { id: "th_new_13", mainCategory: "th_chat", subCategory: "晚安", title: "晚安｜活著就很棒", platforms: ["threads"], mood: "🍀 療癒", usageTip: "🫂 情緒共鳴", tags: ["#晚安", "#療癒", "#自我和解"], content: "如果今天沒有做到什麼大事，\n\n也沒關係，活著就很棒了。" },
-            { id: "th_new_14", mainCategory: "th_chat", subCategory: "晚安", title: "晚安｜走到現在", platforms: ["threads"], mood: "💪 鼓勵", usageTip: "💤 晚安文", tags: ["#晚安", "#鼓勵", "#堅持"], content: "今天再怎麼累，\n\n至少我們都走到現在了。" },
+            // --- ③ 創業日記 ---
+            { id: "start_01", mainCategory: "startup", subCategory: "回憶", title: "創業｜剛開始的時候", platforms: ["threads", "facebook"], mood: "🌱 感性", usageTip: "💡 建立品牌深度的故事文", tags: ["#創業故事", "#初心"], content: "剛開始創業的時候，\n連紙箱都要去跟超商要...📦\n\n現在看到倉庫滿滿的貨，\n還是覺得很不可思議。\n\n謝謝每一個陪我們走到這裡的你。❤️\n#創業日記 #感謝 #品牌故事" },
+            { id: "start_02", mainCategory: "startup", subCategory: "心聲", title: "創業｜數字背後", platforms: ["threads"], mood: "💪 堅持", usageTip: "💡 適合夜深人靜時發", tags: ["#心聲", "#堅持"], content: "有些數字不能只看今天。\n\n雖然今天營業額掛蛋 🥚\n但看到客人上次留的好評，\n就覺得還能再撐一下。\n\n小品牌的日常心聲，懂的舉手 🙋\n#創業艱辛 #自我鼓勵" },
 
-            // --- 三、Threads｜增粉互動 ---
-            { id: "th_new_15", mainCategory: "th_growth", subCategory: "調查", title: "互動｜想看什麼內容", platforms: ["threads"], mood: "📊 認真", usageTip: "📈 增粉互動", tags: ["#調查", "#互動", "#想衝粉"], content: "小編想問：\n\n你滑 Threads 通常是想看什麼內容？" },
-            { id: "th_new_16", mainCategory: "th_growth", subCategory: "選擇", title: "互動｜三選一", platforms: ["threads"], mood: "🤔 選擇", usageTip: "💬 容易被回", tags: ["#選擇題", "#互動", "#高回覆"], content: "如果只能選一個：\n\nA. 放鬆聊天\n\nB. 學點小技巧\n\nC. 看別人碎念\n\n你選哪個？" },
-            { id: "th_new_17", mainCategory: "th_growth", subCategory: "點名", title: "互動｜夜貓子點名", platforms: ["threads"], mood: "🦉 深夜", usageTip: "🌙 晚上發", tags: ["#點名", "#夜貓子", "#想聊天"], content: "偷偷調查一下，\n\n現在還在線上的人是夜貓子嗎？🦉" },
-            { id: "th_new_18", mainCategory: "th_growth", subCategory: "共鳴", title: "互動｜忍不住滑手機", platforms: ["threads"], mood: "📱 真實", usageTip: "🔥 高共鳴", tags: ["#共鳴", "#舉手", "#拖延症"], content: "有人跟我一樣，\n\n事情很多，但還是忍不住滑一下 Threads 嗎？" },
-            { id: "th_new_19", mainCategory: "th_growth", subCategory: "調查", title: "互動｜按讚原因", platforms: ["threads"], mood: "👍 好奇", usageTip: "📊 市場調查", tags: ["#調查", "#按讚", "#經營心法"], content: "你會因為哪一種貼文按讚？\n\n1️⃣ 共鳴\n\n2️⃣ 好笑\n\n3️⃣ 很真實" },
-            { id: "th_new_20", mainCategory: "th_growth", subCategory: "自首", title: "互動｜先滑再做事", platforms: ["threads"], mood: "🙋 自首", usageTip: "⏱️ 30秒可發", tags: ["#自首", "#互動", "#人性"], content: "這裡有多少人是：\n\n「先滑 Threads，再決定要不要認真做事的」🙋‍♀️" },
+            // --- ④ 增粉計畫／經營紀錄 ---
+            { id: "gro_01", mainCategory: "growth", subCategory: "目標", title: "紀錄｜本月目標", platforms: ["threads"], mood: "🎯 堅定", usageTip: "💡 月初發，邀請粉絲見證", tags: ["#目標", "#增粉"], content: "本月目標：追蹤數 +100 🔥\n\n雖然聽起來不多，\n但每一個數字都是活生生的人啊！\n\n如果你剛好滑到這篇，\n歡迎按個追蹤，成為我們的第 N 號股東！🤝\n#增粉計畫 #小目標 #追蹤我" },
+            
+            // --- ⑤ 流量觀察／社群碎念 ---
+            { id: "tra_01", mainCategory: "traffic", subCategory: "演算法", title: "觀察｜演算法又改？", platforms: ["threads"], mood: "🫠 崩潰", usageTip: "💡 觸及低時引發同業共鳴", tags: ["#演算法", "#觸及"], content: "Threads 今天怪怪的...\n\n我的觸及是不是被吃掉了？🦖\n有沒有人也覺得今天靜悄悄？\n\n還是單純我發文太無聊 (誤)\n#社群災情 #演算法 #觸及率" },
 
-            // --- 四、Threads｜品牌陪伴感 ---
-            { id: "th_new_21", mainCategory: "th_brand", subCategory: "日記", title: "品牌｜像寫日記", platforms: ["threads"], mood: "📖 感性", usageTip: "🧡 品牌形象", tags: ["#品牌心聲", "#日記", "#經營"], content: "有時候經營品牌真的很像在寫日記，\n\n只是日記是給大家看的。" },
-            { id: "th_new_22", mainCategory: "th_brand", subCategory: "心得", title: "品牌｜慢慢來比較快", platforms: ["threads"], mood: "🐢 穩重", usageTip: "💡 金句分享", tags: ["#心得", "#金句", "#經營哲學"], content: "小編最近最大的心得是：\n\n慢慢來，真的比較快。" },
-            { id: "th_new_23", mainCategory: "th_brand", subCategory: "心態", title: "品牌｜在意自己喜歡", platforms: ["threads"], mood: "✨ 真誠", usageTip: "🧡 建立信任", tags: ["#成長", "#心態", "#做自己"], content: "以前很怕沒人回，\n\n現在比較在意「我說的話是不是我自己喜歡的」。" },
-            { id: "th_new_24", mainCategory: "th_brand", subCategory: "日常", title: "品牌｜沒有天天高潮", platforms: ["threads"], mood: "🏠 平實", usageTip: "📦 幕後花絮", tags: ["#真實", "#幕後", "#日常"], content: "品牌經營沒有天天高潮，\n\n大多數時間都是日常。" },
-            { id: "th_new_25", mainCategory: "th_brand", subCategory: "創業", title: "品牌｜邊懷疑邊做", platforms: ["threads"], mood: "💪 堅持", usageTip: "🤝 創業共鳴", tags: ["#創業", "#共鳴", "#堅持"], content: "有沒有人也是，\n\n一邊懷疑自己，一邊還是繼續做？" },
+            // --- ⑥ 小編互助會 ---
+            { id: "sup_01", mainCategory: "support", subCategory: "點名", title: "互助｜小編報到", platforms: ["threads"], mood: "🤝 友善", usageTip: "💡 增加同溫層互動", tags: ["#小編", "#互助"], content: "小編報到！🙋\n\n有人也是一人公司嗎？\n校長兼撞鐘，包貨兼客服。\n\n出來喊個聲，我們互相加油好不好？💪\n#一人公司 #小編互助會 #取暖" },
 
-            // --- 五、Threads｜情緒共鳴 ---
-            { id: "th_new_26", mainCategory: "th_emo", subCategory: "安慰", title: "共鳴｜給有點累的你", platforms: ["threads"], mood: "🫂 溫暖", usageTip: "❤️ 收藏型", tags: ["#療癒", "#安慰", "#收藏"], content: "如果你今天有點累，\n\n這篇就是給你的。" },
-            { id: "th_new_27", mainCategory: "th_emo", subCategory: "鼓勵", title: "共鳴｜事情比較多", platforms: ["threads"], mood: "🌟 打氣", usageTip: "💪 鼓勵文", tags: ["#鼓勵", "#溫暖", "#正能量"], content: "不是你不夠努力，\n\n有時候只是事情比較多。" },
-            { id: "th_new_28", mainCategory: "th_emo", subCategory: "和解", title: "共鳴｜沒做到也沒關係", platforms: ["threads"], mood: "🍵 放鬆", usageTip: "💤 晚安文", tags: ["#自我和解", "#晚安", "#放過自己"], content: "今天沒做到理想中的自己，\n\n也沒關係。" },
-            { id: "th_new_29", mainCategory: "th_emo", subCategory: "休息", title: "共鳴｜慢慢來", platforms: ["threads"], mood: "🛌 休息", usageTip: "💤 低能量日", tags: ["#休息", "#慢步調", "#充電"], content: "有些疲累不是睡一覺就好，\n\n但至少可以慢慢來。" },
-            { id: "th_new_30", mainCategory: "th_emo", subCategory: "肯定", title: "共鳴｜你已經撐過很多", platforms: ["threads"], mood: "🌈 堅強", usageTip: "❤️ 收藏型", tags: ["#力量", "#肯定", "#自我價值"], content: "你已經撐過很多事了，\n\n只是你自己忘了。" },
+            // --- ⑦ 品牌幕後 ---
+            { id: "beh_01", mainCategory: "behind", subCategory: "包貨", title: "幕後｜包貨地獄", platforms: ["threads", "story"], mood: "📦 充實", usageTip: "💡 讓客人知道你很重視商品", tags: ["#包貨", "#出貨"], content: "今天在包貨地獄中度過...🔥\n\n雖然手很酸，\n但想到你們收到時開心的樣子，\n就覺得值得了！\n\n(其實是想到有錢賺很開心 😂)\n#出貨日常 #感謝訂購" },
 
-            // --- 六、Threads｜低調帶品牌 ---
-            { id: "th_new_31", mainCategory: "th_prod", subCategory: "感性", title: "帶貨｜心意貼在日常", platforms: ["threads"], mood: "🎁 用心", usageTip: "🛍️ 軟性推廣", tags: ["#商品", "#感性", "#日常"], content: "小編在整理商品的時候突然想，\n\n原來很多人都是把心意貼在日常裡。" },
-            { id: "th_new_32", mainCategory: "th_prod", subCategory: "心情", title: "帶貨｜心情很好", platforms: ["threads"], mood: "✨ 快樂", usageTip: "🛍️ 軟性推廣", tags: ["#好物", "#心情", "#非必需品"], content: "有些東西不是必需品，\n\n但用了會心情很好。" },
-            { id: "th_new_33", mainCategory: "th_prod", subCategory: "願景", title: "帶貨｜陪在生活裡", platforms: ["threads"], mood: "🏡 溫馨", usageTip: "🧡 品牌理念", tags: ["#願景", "#陪伴", "#生活"], content: "我們做的事情很小，\n\n但希望能陪在大家的生活裡。" },
-            { id: "th_new_34", mainCategory: "th_prod", subCategory: "態度", title: "帶貨｜把事情做好", platforms: ["threads"], mood: "🛠️ 職人", usageTip: "🧡 建立信任", tags: ["#態度", "#職人", "#堅持"], content: "有時候不是要多厲害，\n\n只是想把事情做好。" },
+            // --- ⑧ 輕知識／小技巧 ---
+            { id: "tip_01", mainCategory: "tips", subCategory: "經營", title: "技巧｜不用每天賣", platforms: ["threads"], mood: "💡 專業", usageTip: "💡 展現專業度", tags: ["#經營心法", "#乾貨"], content: "【經營小撇步】\n\n發文其實不用每天賣東西。\n\n偶爾分享生活、偶爾吐吐槽，\n讓客人覺得你是「人」而不是「機器」，\n\n信任感就是這樣來的喔！✨\n#社群經營 #小知識 #心法" },
 
-            // --- 七、Threads｜小編碎念 / 真心話 (歸類為 th_chat 碎念) ---
-            { id: "th_new_35", mainCategory: "th_chat", subCategory: "碎念", title: "碎念｜不想發文", platforms: ["threads"], mood: "😶 誠實", usageTip: "💤 低能量日", tags: ["#真心話", "#不想上班", "#誠實"], content: "老實說，\n\n今天其實有點不想發文。" },
-            { id: "th_new_36", mainCategory: "th_chat", subCategory: "碎念", title: "碎念｜沒事但有點累", platforms: ["threads"], mood: "🫠 疲憊", usageTip: "💤 尋求共鳴", tags: ["#厭世", "#討拍", "#累"], content: "有沒有人懂那種：\n\n「沒事，但就是有點累」的感覺。" },
-            { id: "th_new_37", mainCategory: "th_chat", subCategory: "碎念", title: "碎念｜別太兇", platforms: ["threads"], mood: "🧡 溫柔", usageTip: "💡 自我提醒", tags: ["#自我反省", "#筆記", "#溫柔"], content: "小編今天學到一件事：\n\n不要對自己太兇。" },
-            { id: "th_new_38", mainCategory: "th_chat", subCategory: "碎念", title: "碎念｜不是只有我", platforms: ["threads"], mood: "🤝 連結", usageTip: "💬 社群感", tags: ["#歸屬感", "#社群", "#共鳴"], content: "有時候滑 Threads，\n\n是為了確認「不是只有我這樣」。" },
-            { id: "th_new_39", mainCategory: "th_chat", subCategory: "碎念", title: "碎念｜同一組", platforms: ["threads"], mood: "🤜 夥伴", usageTip: "💪 互相打氣", tags: ["#夥伴", "#加油", "#硬撐"], content: "今天如果你也在硬撐，\n\n我們算同一組的。" },
-            { id: "th_new_40", mainCategory: "th_chat", subCategory: "碎念", title: "碎念｜短暫相遇", platforms: ["threads"], mood: "✨ 緣分", usageTip: "❤️ 感謝文", tags: ["#感謝", "#緣分", "#珍惜"], content: "謝謝你看到這裡，\n\n代表我們今天有短暫相遇。" },
+            // --- ⑨ 開運／正能量 ---
+            { id: "ene_01", mainCategory: "energy", subCategory: "慢步調", title: "能量｜慢慢來", platforms: ["threads"], mood: "🍀 療癒", usageTip: "💡 適合週末或壓力大時", tags: ["#正能量", "#慢生活"], content: "今天適合慢一點。🐢\n\n好運會慢慢來，\n就像我們的包裹雖然不是 24h 到貨，\n但充滿了愛與心意 (硬要轉)\n\n祝大家今天都有好事發生！✨\n#好運 #正能量 #慢活" },
 
-            // --- 新增：Threads 內建模板｜第 2 批 (41-80) ---
-            { id: "th_new_41", mainCategory: "th_obs", subCategory: "流量", title: "觀察｜多人回", platforms: ["threads"], mood: "🧐 觀察", usageTip: "📉 流量低迷時發", tags: ["#社群觀察", "#流量", "#互動"], content: "Ashun+ 小編今天想跟你聊聊：\n\n你有發現嗎？有時候沒想太多的貼文，反而比較多人回。" },
-            { id: "th_new_42", mainCategory: "th_obs", subCategory: "心得", title: "觀察｜大家都在觀望", platforms: ["threads"], mood: "😌 安慰", usageTip: "📉 流量低迷時發", tags: ["#流量心得", "#社群", "#觀望"], content: "小編最近的流量心得是：\n\n不是內容變差，是大家都在觀望。" },
-            { id: "th_new_43", mainCategory: "th_obs", subCategory: "點名", title: "觀察｜還有人嗎", platforms: ["threads"], mood: "👀 好奇", usageTip: "💤 深夜發", tags: ["#點名", "#流量", "#互動"], content: "今天這篇不追流量，\n\n純粹想確認還有人在線上。" },
-            { id: "th_new_44", mainCategory: "th_obs", subCategory: "疑問", title: "觀察｜突然被推", platforms: ["threads"], mood: "😲 驚喜", usageTip: "📈 流量好時發", tags: ["#演算法", "#幸運", "#流量"], content: "你會不會也有這種時候：\n\n明明沒做什麼，但貼文突然被推？" },
-            { id: "th_new_45", mainCategory: "th_obs", subCategory: "感嘆", title: "觀察｜流量像心情", platforms: ["threads"], mood: "🫠 無奈", usageTip: "💬 小編心聲", tags: ["#流量", "#心情", "#社群"], content: "Threads 的流量真的很像心情，\n\n抓不住，但每天都會看。" },
-            { id: "th_new_46", mainCategory: "th_obs", subCategory: "標準", title: "觀察｜發文標準", platforms: ["threads"], mood: "✅ 堅定", usageTip: "💡 經營心法", tags: ["#經營", "#標準", "#互動"], content: "小編現在發文的標準只有一個：\n\n我自己看了會不會想回。" },
-            { id: "th_new_47", mainCategory: "th_obs", subCategory: "安慰", title: "觀察｜不是你的錯", platforms: ["threads"], mood: "🧡 溫暖", usageTip: "📉 流量低迷時發", tags: ["#安慰", "#流量", "#轉念"], content: "有時候不是沒流量，\n\n只是剛好大家都在忙。" },
-            { id: "th_new_48", mainCategory: "th_obs", subCategory: "緣分", title: "觀察｜緣分演算法", platforms: ["threads"], mood: "✨ 緣分", usageTip: "❤️ 感謝文", tags: ["#緣分", "#演算法", "#感謝"], content: "這篇如果你看到了，\n\n代表我們有一點點緣分。" },
+            // --- ⑩ 問答／互動一句話 ---
+            { id: "int_01", mainCategory: "interaction", subCategory: "提問", title: "互動｜發文了嗎", platforms: ["threads"], mood: "❓ 疑問", usageTip: "💡 簡單暴力的互動文", tags: ["#提問", "#互動"], content: "你今天發文了嗎？👀\n\n1. 發了！\n2. 還沒，在偷懶\n3. 正在想...\n\n我是 3，想破頭中 🤯\n#社群經營 #發文 #互動" },
 
-            { id: "th_new_49", mainCategory: "th_brand", subCategory: "真心話", title: "創業｜心累的點", platforms: ["threads"], mood: "🤯 真實", usageTip: "🌱 創業日記", tags: ["#創業", "#心累", "#成長"], content: "創業之後才發現，\n\n最累的不是工作，是「一直想更好」。" },
-            { id: "th_new_50", mainCategory: "th_brand", subCategory: "實話", title: "創業｜平凡日常", platforms: ["threads"], mood: "🏠 平實", usageTip: "🧡 建立信任", tags: ["#品牌", "#日常", "#真實"], content: "小編今天想說實話：\n\n品牌經營，大多數時候都很普通。" },
-            { id: "th_new_51", mainCategory: "th_brand", subCategory: "鼓勵", title: "創業｜自我肯定", platforms: ["threads"], mood: "🌟 正向", usageTip: "💪 自我鼓勵", tags: ["#進步", "#肯定", "#創業"], content: "有些進步只有自己知道，\n\n但還是會默默替自己加一分。" },
-            { id: "th_new_52", mainCategory: "th_brand", subCategory: "現實", title: "創業｜熱血與現實", platforms: ["threads"], mood: "📅 紀律", usageTip: "🌱 創業日記", tags: ["#創業", "#紀律", "#現實"], content: "創業不是每天都很熱血，\n\n更多時候是照表操課。" },
-            { id: "th_new_53", mainCategory: "th_brand", subCategory: "共鳴", title: "創業｜自我懷疑", platforms: ["threads"], mood: "🤝 共鳴", usageTip: "😭 討拍", tags: ["#懷疑", "#堅持", "#創業"], content: "有沒有人也是，\n\n一邊懷疑自己，一邊還是繼續做？" },
-            { id: "th_new_54", mainCategory: "th_brand", subCategory: "踏實", title: "創業｜踏實的一天", platforms: ["threads"], mood: "😌 滿足", usageTip: "💤 晚安文", tags: ["#踏實", "#創業", "#日常"], content: "今天沒有爆單，\n\n但有把該做的事做完。" },
-            { id: "th_new_55", mainCategory: "th_brand", subCategory: "心法", title: "創業｜持續最難", platforms: ["threads"], mood: "🔥 堅持", usageTip: "💡 金句", tags: ["#持續", "#經營", "#難關"], content: "品牌經營最難的，\n\n其實是「持續」。" },
-            { id: "th_new_56", mainCategory: "th_brand", subCategory: "夥伴", title: "創業｜同路人", platforms: ["threads"], mood: "🤜 夥伴", usageTip: "🤝 互相打氣", tags: ["#累積", "#夥伴", "#創業"], content: "如果你也在慢慢累積，\n\n那我們走在同一條路上。" },
+            // --- ⑪ 節氣／月份感 ---
+            { id: "sea_01", mainCategory: "seasonal", subCategory: "月初", title: "月份｜月初碎念", platforms: ["threads"], mood: "📅 期待", usageTip: "💡 每月 1 號必發", tags: ["#月初", "#新的開始"], content: "又過了一個月...😱\n\n上個月的目標達成了嗎？\n不管怎樣，新的月份就是新的開始！\n\n本月關鍵字：______\n我的是「爆單」，你的呢？👇\n#月初 #許願 #新目標" },
 
-            { id: "th_new_57", mainCategory: "th_chat", subCategory: "互助", title: "互助｜發文猶豫", platforms: ["threads"], mood: "🙋 點名", usageTip: "🧠 沒靈感", tags: ["#小編互助", "#猶豫", "#舉手"], content: "小編互助會點名 🙋‍♀️\n\n今天發文前有猶豫的人請舉手。" },
-            { id: "th_new_58", mainCategory: "th_chat", subCategory: "互助", title: "互助｜詞窮", platforms: ["threads"], mood: "🫠 詞窮", usageTip: "🧠 沒靈感", tags: ["#小編", "#詞窮", "#靈感"], content: "有沒有社群小編懂：\n\n不是不想發，是不知道發什麼。" },
-            { id: "th_new_59", mainCategory: "th_chat", subCategory: "互助", title: "互助｜隱形工時", platforms: ["threads"], mood: "💼 專業", usageTip: "💬 社群甘苦", tags: ["#工時", "#小編", "#心聲"], content: "每天想貼文主題，\n\n其實也是一種隱形工時。" },
-            { id: "th_new_60", mainCategory: "th_chat", subCategory: "互助", title: "互助｜想要留言", platforms: ["threads"], mood: "💬 渴望", usageTip: "📈 求互動", tags: ["#留言", "#互動", "#小編"], content: "小編今天最想得到的不是讚，\n\n是有人留言。" },
-            { id: "th_new_61", mainCategory: "th_chat", subCategory: "互助", title: "互助｜最怕KPI", platforms: ["threads"], mood: "😱 恐懼", usageTip: "💬 閒聊", tags: ["#KPI", "#小編", "#社群"], content: "如果你也是小編，\n\n你最怕的是哪一種 KPI？" },
-            { id: "th_new_62", mainCategory: "th_chat", subCategory: "互助", title: "互助｜情緒勞動", platforms: ["threads"], mood: "🎭 偽裝", usageTip: "🫂 討拍", tags: ["#情緒", "#社群", "#辛苦"], content: "社群經營真的很吃情緒，\n\n但外人通常看不出來。" },
-            { id: "th_new_63", mainCategory: "th_chat", subCategory: "互助", title: "互助｜準時就贏", platforms: ["threads"], mood: "🏆 肯定", usageTip: "💪 自我鼓勵", tags: ["#準時", "#小編", "#厲害"], content: "小編互助會小聲說：\n\n有時候能準時發文就很厲害了。" },
-            { id: "th_new_64", mainCategory: "th_chat", subCategory: "互助", title: "互助｜同行招呼", platforms: ["threads"], mood: "👋 友善", usageTip: "🤝 認識新朋友", tags: ["#打招呼", "#小編", "#同行"], content: "今天這篇算是\n\n「小編跟小編打招呼」。" },
+            // --- ⑫ 放空型 (超重要) ---
+            { id: "lazy_01", mainCategory: "lazy", subCategory: "下線", title: "放空｜小編下線", platforms: ["threads"], mood: "😶 想下班", usageTip: "💡 適合週五或不想動腦時", tags: ["#下班", "#放空"], content: "今天先這樣。\n小編下線一下。\n\n(這則貼文證明我今天有上班)\n👋👋👋\n#偷懶 #薪水小偷 #週五" },
+            { id: "lazy_02", mainCategory: "lazy", subCategory: "留白", title: "放空｜...", platforms: ["threads"], mood: "😶 無言", usageTip: "💡 莫名的很有互動", tags: ["#...", "#廢文"], content: "...\n\n(此處應有文案)\n(但我想不到)\n\n大家晚安 💤\n#廢文 #湊篇數" },
 
-            { id: "th_new_65", mainCategory: "th_growth", subCategory: "調查", title: "增粉｜追蹤原因", platforms: ["threads"], mood: "📊 調查", usageTip: "📈 市場調查", tags: ["#追蹤", "#調查", "#經營"], content: "來做個小調查：\n\n你追蹤帳號最看重的是什麼？" },
-            { id: "th_new_66", mainCategory: "th_growth", subCategory: "承諾", title: "增粉｜認真回覆", platforms: ["threads"], mood: "👂 傾聽", usageTip: "💬 誠意互動", tags: ["#留言", "#承諾", "#互動"], content: "如果你願意留言，\n\n我會很認真看完。" },
-            { id: "th_new_67", mainCategory: "th_growth", subCategory: "點名", title: "增粉｜召喚潛水客", platforms: ["threads"], mood: "🤿 潛水", usageTip: "🙋 點名", tags: ["#潛水", "#觀察", "#點名"], content: "這裡有多少人是\n\n「默默看，不太留言型」？" },
-            { id: "th_new_68", mainCategory: "th_growth", subCategory: "提問", title: "增粉｜一句話入坑", platforms: ["threads"], mood: "❓ 好奇", usageTip: "💡 經營探討", tags: ["#追蹤", "#文案", "#好奇"], content: "你會因為一句話而追蹤一個帳號嗎？" },
-            { id: "th_new_69", mainCategory: "th_growth", subCategory: "行動", title: "增粉｜簽到", platforms: ["threads"], mood: "👇 行動", usageTip: "🧠 無腦互動", tags: ["#簽到", "#表情符號", "#互動"], content: "今天這篇如果有被你看到，\n\n記得幫自己留個表情符號👇" },
-            { id: "th_new_70", mainCategory: "th_growth", subCategory: "二選一", title: "增粉｜活躍時間", platforms: ["threads"], mood: "⏰ 統計", usageTip: "📊 二選一", tags: ["#時間", "#習慣", "#調查"], content: "你比較常滑 Threads 的時間是？\n\n🌤 白天｜🌙 晚上" },
-            { id: "th_new_71", mainCategory: "th_growth", subCategory: "共鳴", title: "增粉｜尋找同頻", platforms: ["threads"], mood: "📡 連線", usageTip: "🤝 建立關係", tags: ["#同頻", "#共鳴", "#緣分"], content: "如果這篇讓你點頭了一下，\n\n那我們算同頻。" },
-            { id: "th_new_72", mainCategory: "th_growth", subCategory: "招呼", title: "增粉｜歡迎新朋友", platforms: ["threads"], mood: "👋 熱情", usageTip: "🌱 擴圈", tags: ["#新朋友", "#打招呼", "#歡迎"], content: "這裡有沒有新朋友？\n\n讓小編跟你說聲嗨 👋" },
-
-            { id: "th_new_73", mainCategory: "th_obs", subCategory: "心態", title: "心法｜撐久一點", platforms: ["threads"], mood: "🐢 長期", usageTip: "💡 經營心法", tags: ["#爆文", "#長期主義", "#心態"], content: "小編現在不太追求爆文，\n\n比較在意能不能撐久。" },
-            { id: "th_new_74", mainCategory: "th_obs", subCategory: "心態", title: "心法｜鐵粉", platforms: ["threads"], mood: "💎 珍惜", usageTip: "💡 經營心法", tags: ["#鐵粉", "#數字", "#經營"], content: "以前很在意數字，\n\n現在比較在意留下來的是誰。" },
-            { id: "th_new_75", mainCategory: "th_obs", subCategory: "心態", title: "心法｜平常心", platforms: ["threads"], mood: "⚖️ 平衡", usageTip: "📉 流量低迷時發", tags: ["#平常心", "#流量", "#心態"], content: "流量高的時候別太得意，\n\n低的時候也別太難過。" },
-            { id: "th_new_76", mainCategory: "th_obs", subCategory: "觀點", title: "心法｜刷存在", platforms: ["threads"], mood: "👻 存在感", usageTip: "💪 堅持", tags: ["#存在感", "#發文", "#堅持"], content: "有時候發文不是為了被看見，\n\n是為了不消失。" },
-            { id: "th_new_77", mainCategory: "th_obs", subCategory: "比喻", title: "心法｜馬拉松", platforms: ["threads"], mood: "🏃 跑步", usageTip: "💡 金句", tags: ["#跑步", "#經營", "#進步"], content: "帳號經營其實很像跑步，\n\n停下來才是真的退步。" },
-            { id: "th_new_78", mainCategory: "th_obs", subCategory: "鼓勵", title: "心法｜贏在堅持", platforms: ["threads"], mood: "🏆 肯定", usageTip: "💪 自我鼓勵", tags: ["#贏", "#發文", "#堅持"], content: "如果你今天還在發文，\n\n那你已經贏過很多人了。" },
-
-            { id: "th_new_79", mainCategory: "th_emo", subCategory: "感謝", title: "收尾｜又遇到了", platforms: ["threads"], mood: "✨ 緣分", usageTip: "❤️ 感謝文", tags: ["#感謝", "#相遇", "#緣分"], content: "謝謝你看到這裡，\n\n代表我們今天又遇到了。" },
-            { id: "th_new_80", mainCategory: "th_emo", subCategory: "感性", title: "收尾｜有感覺就好", platforms: ["threads"], mood: "🍃 隨性", usageTip: "🫂 軟性貼文", tags: ["#感覺", "#重點", "#隨筆"], content: "這篇沒有重點，\n\n但如果你有感覺，那就夠了。" },
-
-            // --- 新增：Threads 內建模板｜第 3 批 (81-120) ---
-            // 一、Threads｜日常節氣 / 季節感
-            { id: "th_new_81", mainCategory: "th_chat", subCategory: "節氣", title: "節氣｜默默換季", platforms: ["threads"], mood: "🍂 觀察", usageTip: "🌥 天氣變涼時", tags: ["#換季", "#天氣", "#閒聊"], content: "Ashun+ 小編今天想跟你聊聊：\n\n最近的天氣，是不是默默在換季了？" },
-            { id: "th_new_82", mainCategory: "th_chat", subCategory: "節氣", title: "節氣｜季節提醒", platforms: ["threads"], mood: "😌 放慢", usageTip: "🐢 慢步調", tags: ["#季節", "#慢活", "#感性"], content: "有時候不是心情變了，\n\n只是季節在提醒我們慢一點。" },
-            { id: "th_new_83", mainCategory: "th_chat", subCategory: "節氣", title: "節氣｜適合溫度", platforms: ["threads"], mood: "🌡️ 舒適", usageTip: "☕ 下午發", tags: ["#溫度", "#放鬆", "#日常"], content: "今天這個溫度，\n\n剛好適合做點不趕時間的事。" },
-            { id: "th_new_84", mainCategory: "th_chat", subCategory: "節氣", title: "節氣｜想法重整", platforms: ["threads"], mood: "🔄 整理", usageTip: "🧹 換季時", tags: ["#換季", "#整理", "#心情"], content: "換季的時候，\n\n連想法都會跟著重整。" },
-            { id: "th_new_85", mainCategory: "th_chat", subCategory: "節氣", title: "節氣｜想回家", platforms: ["threads"], mood: "🏠 歸屬", usageTip: "🌧️ 下雨/變天", tags: ["#天氣", "#回家", "#共鳴"], content: "最近的天氣，\n\n是不是讓人特別想早點回家？" },
-            { id: "th_new_86", mainCategory: "th_chat", subCategory: "節氣", title: "節氣｜慢慢前進", platforms: ["threads"], mood: "🚶 前行", usageTip: "📅 節氣日", tags: ["#節氣", "#成長", "#前進"], content: "節氣在走，\n\n我們也在慢慢前進。" },
-            { id: "th_new_87", mainCategory: "th_chat", subCategory: "節氣", title: "節氣｜回頭看", platforms: ["threads"], mood: "👀 回顧", usageTip: "✨ 特別日子", tags: ["#日子", "#回顧", "#珍惜"], content: "有些日子沒有特別標記，\n\n但回頭看都很重要。" },
-            { id: "th_new_88", mainCategory: "th_chat", subCategory: "節氣", title: "節氣｜往前感覺", platforms: ["threads"], mood: "🌬️ 清新", usageTip: "💪 新開始", tags: ["#空氣", "#前進", "#希望"], content: "這幾天的空氣，\n\n有一種「要往前了」的感覺。" },
-
-            // 二、Threads｜新年倒數 / 年度感
-            { id: "th_new_89", mainCategory: "th_chat", subCategory: "年度", title: "年度｜走到這裡", platforms: ["threads"], mood: "🕰️ 感嘆", usageTip: "📅 年末", tags: ["#年末", "#感嘆", "#時間"], content: "不知不覺，\n\n今年也走到這個位置了。" },
-            { id: "th_new_90", mainCategory: "th_chat", subCategory: "年度", title: "年度｜形容詞", platforms: ["threads"], mood: "🔠 互動", usageTip: "💬 高回覆", tags: ["#年度關鍵字", "#互動", "#回顧"], content: "如果用一個詞形容今年，\n\n你會選哪一個？" },
-            { id: "th_new_91", mainCategory: "th_chat", subCategory: "年度", title: "年度｜平穩就好", platforms: ["threads"], mood: "🕊️ 平靜", usageTip: "🙏 許願", tags: ["#新年", "#願望", "#平穩"], content: "新的一年不一定要很厲害，\n\n平穩就很好。" },
-            { id: "th_new_92", mainCategory: "th_chat", subCategory: "年度", title: "年度｜留給自己", platforms: ["threads"], mood: "🔒 私密", usageTip: "🤫 悄悄話", tags: ["#目標", "#隱私", "#成長"], content: "不是每個目標都要公開，\n\n有些留給自己。" },
-            { id: "th_new_93", mainCategory: "th_chat", subCategory: "年度", title: "年度｜整理心情", platforms: ["threads"], mood: "📦 整理", usageTip: "🧹 大掃除前", tags: ["#整理", "#心情", "#準備"], content: "新年還沒到，\n\n但已經在慢慢整理心情。" },
-            { id: "th_new_94", mainCategory: "th_chat", subCategory: "年度", title: "年度｜對自己說", platforms: ["threads"], mood: "🗣️ 對話", usageTip: "❤️ 愛自己", tags: ["#對自己說", "#回顧", "#愛自己"], content: "今年最值得你對自己說的話是什麼？" },
-            { id: "th_new_95", mainCategory: "th_chat", subCategory: "年度", title: "年度｜少一件事", platforms: ["threads"], mood: "✂️ 減法", usageTip: "🤔 思考", tags: ["#斷捨離", "#明年", "#提問"], content: "如果明年可以少一件事，\n\n你希望少的是什麼？" },
-            { id: "th_new_96", mainCategory: "th_chat", subCategory: "年度", title: "年度｜不用證明", platforms: ["threads"], mood: "🦋 自在", usageTip: "🌟 新年願望", tags: ["#新年快樂", "#自在", "#祝福"], content: "新的一年，\n\n願我們都不用那麼用力證明自己。" },
-
-            // 三、Threads｜情緒轉換 / 心情照顧
-            { id: "th_new_97", mainCategory: "th_emo", subCategory: "照顧", title: "照顧｜先這樣", platforms: ["threads"], mood: "🛑 暫停", usageTip: "💤 很累時", tags: ["#累了", "#休息", "#接納"], content: "今天如果有點累，\n\n那就先這樣也沒關係。" },
-            { id: "th_new_98", mainCategory: "th_emo", subCategory: "照顧", title: "照顧｜靜靜滑", platforms: ["threads"], mood: "🤫 安靜", usageTip: "😶 不想說話", tags: ["#安靜", "#陪伴", "#理解"], content: "不想說話的時候，\n\n靜靜滑一下也很好。" },
-            { id: "th_new_99", mainCategory: "th_emo", subCategory: "照顧", title: "照顧｜一點空白", platforms: ["threads"], mood: "⬜ 空白", usageTip: "🧘 沉澱", tags: ["#空白", "#休息", "#沉澱"], content: "有些日子不是不好，\n\n只是需要一點空白。" },
-            { id: "th_new_100", mainCategory: "th_emo", subCategory: "照顧", title: "照顧｜有人懂", platforms: ["threads"], mood: "🤝 同理", usageTip: "🫂 討拍", tags: ["#同理", "#懂你", "#支持"], content: "如果你現在正在撐，\n\n希望你知道有人懂。" },
-            { id: "th_new_101", mainCategory: "th_emo", subCategory: "照顧", title: "照顧｜做得夠多", platforms: ["threads"], mood: "👍 肯定", usageTip: "🏆 鼓勵", tags: ["#肯定", "#足夠", "#放鬆"], content: "今天的你，\n\n已經做得夠多了。" },
-            { id: "th_new_102", mainCategory: "th_emo", subCategory: "照顧", title: "照顧｜不想努力", platforms: ["threads"], mood: "🛌 躺平", usageTip: "💤 耍廢", tags: ["#愛自己", "#優先", "#照顧"], content: "不想努力的時候，\n\n先照顧好自己。" },
-            { id: "th_new_103", mainCategory: "th_emo", subCategory: "照顧", title: "照顧｜不迷路", platforms: ["threads"], mood: "🧭 方向", usageTip: "🐢 慢慢來", tags: ["#慢下來", "#方向", "#智慧"], content: "有時候慢下來，\n\n反而比較不容易迷路。" },
-            { id: "th_new_104", mainCategory: "th_emo", subCategory: "照顧", title: "照顧｜休息一下", platforms: ["threads"], mood: "☕ 休息", usageTip: "🔔 提醒", tags: ["#休息", "#提醒", "#暫停"], content: "如果你看到這篇，\n\n那就讓自己休息一下。" },
-
-            // 四、Threads｜情緒轉彎 / 輕整理型
-            { id: "th_new_105", mainCategory: "th_emo", subCategory: "轉念", title: "轉念｜不用急", platforms: ["threads"], mood: "⏳ 緩衝", usageTip: "😰 焦慮時", tags: ["#不急", "#提問", "#緩衝"], content: "最近有什麼事情，\n\n其實可以不用那麼急？" },
-            { id: "th_new_106", mainCategory: "th_emo", subCategory: "轉念", title: "轉念｜不用想清楚", platforms: ["threads"], mood: "🌫️ 模糊", usageTip: "🤯 想太多", tags: ["#模糊", "#允許", "#時間"], content: "不是每件事都需要立刻想清楚。" },
-            { id: "th_new_107", mainCategory: "th_emo", subCategory: "轉念", title: "轉念｜答案會出現", platforms: ["threads"], mood: "🕰️ 等待", usageTip: "🙏 信念", tags: ["#時間", "#答案", "#耐心"], content: "有些答案，\n\n真的要時間才會出現。" },
-            { id: "th_new_108", mainCategory: "th_emo", subCategory: "轉念", title: "轉念｜不做決定", platforms: ["threads"], mood: "🤷 隨緣", usageTip: "⚖️ 選擇困難", tags: ["#選擇", "#決定", "#空間"], content: "今天不做決定，\n\n也是一種選擇。" },
-            { id: "th_new_109", mainCategory: "th_emo", subCategory: "轉念", title: "轉念｜停一下", platforms: ["threads"], mood: "🛑 暫停", usageTip: "🚧 卡關時", tags: ["#卡關", "#暫停", "#轉念"], content: "如果現在有點卡，\n\n那就先停一下。" },
-            { id: "th_new_110", mainCategory: "th_emo", subCategory: "轉念", title: "轉念｜調整方向", platforms: ["threads"], mood: "🔄 轉向", usageTip: "🧭 迷惘時", tags: ["#方向", "#調整", "#生活"], content: "生活有時候不是前進，\n\n是調整方向。" },
-            { id: "th_new_111", mainCategory: "th_emo", subCategory: "轉念", title: "轉念｜不用生產力", platforms: ["threads"], mood: "🛋️ 放鬆", usageTip: "💤 週末", tags: ["#生產力", "#放鬆", "#允許"], content: "不用每天都很有生產力。" },
-            { id: "th_new_112", mainCategory: "th_emo", subCategory: "轉念", title: "轉念｜給點寬鬆", platforms: ["threads"], mood: "🧣 溫柔", usageTip: "🧣 溫柔對話", tags: ["#寬鬆", "#溫柔", "#提問"], content: "你願意給自己一點寬鬆嗎？" },
-
-            // 五、Threads｜溫柔收尾 / 晚安感
-            { id: "th_new_113", mainCategory: "th_emo", subCategory: "晚安", title: "晚安｜溫柔對自己", platforms: ["threads"], mood: "🫂 擁抱", usageTip: "💤 睡前發", tags: ["#溫柔", "#接納", "#晚安"], content: "今天如果沒有完成什麼，\n\n也請你溫柔對自己。" },
-            { id: "th_new_114", mainCategory: "th_emo", subCategory: "晚安", title: "晚安｜走完一天", platforms: ["threads"], mood: "🏁 終點", usageTip: "💤 晚安文", tags: ["#結束", "#一天", "#晚安"], content: "不管今天過得怎麼樣，\n\n都算走完一天了。" },
-            { id: "th_new_115", mainCategory: "th_emo", subCategory: "晚安", title: "晚安｜世界很吵", platforms: ["threads"], mood: "🔇 靜音", usageTip: "💤 晚安文", tags: ["#慢慢來", "#世界", "#安靜"], content: "世界很吵，\n\n你可以慢慢來。" },
-            { id: "th_new_116", mainCategory: "th_emo", subCategory: "晚安", title: "晚安｜睡得安心", platforms: ["threads"], mood: "🛌 安心", usageTip: "💤 晚安文", tags: ["#安心", "#睡眠", "#祝福"], content: "願今晚的你，\n\n睡得比昨天安心一點。" },
-            { id: "th_new_117", mainCategory: "th_emo", subCategory: "晚安", title: "晚安｜陪你一下", platforms: ["threads"], mood: "🤝 陪伴", usageTip: "❤️ 暖心", tags: ["#陪伴", "#無目的", "#暖心"], content: "這篇沒有目的，\n\n只是陪你一下。" },
-            { id: "th_new_118", mainCategory: "th_emo", subCategory: "晚安", title: "晚安｜辛苦了", platforms: ["threads"], mood: "💦 慰勞", usageTip: "💪 給力量", tags: ["#辛苦了", "#安慰", "#力量"], content: "如果你需要一句話，\n\n那就：辛苦了。" },
-            { id: "th_new_119", mainCategory: "th_emo", subCategory: "晚安", title: "晚安｜明天繼續", platforms: ["threads"], mood: "⏸️ 暫停", usageTip: "💤 晚安文", tags: ["#休息", "#明天", "#晚安"], content: "明天再繼續，\n\n今晚先好好休息。" },
-            { id: "th_new_120", mainCategory: "th_emo", subCategory: "晚安", title: "晚安｜撐到這裡", platforms: ["threads"], mood: "🙏 感謝", usageTip: "❤️ 感謝文", tags: ["#感謝", "#堅持", "#晚安"], content: "謝謝你今天，\n\n願意撐到這裡。" },
-
-            // --- 原有模版 ---
+            // --- 附件完整模版庫 (合併加入) ---
             { id: "new_01", mainCategory: "new_arrival", subCategory: "新品預告", title: "新品｜局部劇透猜猜看", platforms: ["instagram", "facebook"], tags: ["#新品預告", "#猜猜看"], content: "👀 偷看一眼！\n這是我們籌備了 {時間} 的秘密武器...\n\n大家猜得到這是什麼嗎？\n提示：\n1. {提示一}\n2. {提示二}\n\n猜對的底下留言，小編隨機抽 {獎品}！🎁\n#新品預告 #ComingSoon #神秘新品" },
+            { id: "new_02", mainCategory: "new_arrival", subCategory: "倒數計時", title: "新品｜倒數 24 小時", platforms: ["instagram", "story"], tags: ["#倒數", "#明天見"], content: "⏳ 倒數 24 小時！\n明天中午 12:00，{新品名} 準時上架。\n\n這次的庫存真的不多，\n特別是 {熱門色/款}，喜歡的朋友建議設鬧鐘！⏰\n\n準備好手刀搶購了嗎？🏃💨\n#新品上市 #倒數計時 #設鬧鐘" },
+            { id: "new_03", mainCategory: "new_arrival", subCategory: "正式上架", title: "新品｜隆重登場", platforms: ["instagram", "facebook"], tags: ["#新品上架", "#必買"], content: "✨ NEW ARRIVAL ✨\n終於等到你！{新品名} 正式開賣啦！\n\n為什麼這款必收？\n✅ {優點1}：解決你的 {痛點}\n✅ {優點2}：質感升級，細節滿分\n✅ {優點3}：CP值超高，現在入手最划算\n\n新品首週享 {折扣} 優惠，滿額再免運！🚛\n🛒 傳送門：{連結}\n#新品 #好物推薦 #質感生活" },
+            { id: "new_stock_01", mainCategory: "new_arrival", subCategory: "現貨掉落", title: "現貨｜不用等！現貨釋出", platforms: ["story", "instagram"], tags: ["#現貨", "#手慢無"], content: "🦖 暴龍級好消息！\n大家問爆的 {商品名} 現貨少量釋出啦！\n\n不用等預購、不用等製作，\n下單後 {天數} 天內火速出貨 🚚\n\n數量只有少少幾組，\n手慢就真的要等下一批囉！\n🛒 搶購連結：{連結}\n#現貨 #不用等 #手刀下單" },
+            { id: "new_color_01", mainCategory: "new_arrival", subCategory: "新色上架", title: "新品｜新色登場", platforms: ["instagram", "facebook"], tags: ["#新色", "#包色"], content: "🎨 許願成功！{商品名} 推出新色啦！\n\n這次的新色是溫柔的 {顏色名}，\n真的太美太顯白了...🥺\n\n跟之前的 {舊色} 放在一起，\n根本就是逼人包色處理！\n大家最喜歡哪一色呢？👇\n#新色上市 #選擇障礙" },
+            { id: "group_01", mainCategory: "promotion", subCategory: "團購預告", title: "團購｜{商品} 開團預告", platforms: ["instagram", "facebook"], tags: ["#團購", "#好物"], content: "🔥 媽咪們許願的團購來了！\n\n這次幫大家談到了超甜價格 🍬\n{商品名} 限時開團！\n\n⏰ 開團時間：{日期} {時間}\n🎁 跟團獨家禮：{贈品}\n\n這團錯過真的會後悔，\n記得設好鬧鐘喔！⏰\n#團購 #限時開團 #好物推薦" },
             { id: "promo_01", mainCategory: "promotion", subCategory: "早鳥優惠", title: "促銷｜早鳥限時優惠", platforms: ["instagram", "facebook"], tags: ["#早鳥", "#優惠"], content: "🐦 早起的鳥兒有蟲吃！\n{活動名稱} 早鳥優惠開跑 🏃‍♂️\n\n前 {名額} 名下單的朋友，\n除了享有 {折扣} 折優惠，\n再加送 {贈品} 一份！🎁\n\n名額有限，送完為止！\n快點這裡搶購 👉 {連結}\n#早鳥優惠 #限時搶購 #好康" },
+            { id: "promo_02", mainCategory: "promotion", subCategory: "免運活動", title: "促銷｜全館免運", platforms: ["instagram", "story"], tags: ["#免運", "#FreeShipping"], content: "🚛 今天運費我們出！\n\n沒錯，就是現在！\n全館不限金額，通通免運費！🎉\n\n平常捨不得下單的重物/大物件，\n趁今天買最划算！\n只到今晚 23:59 喔！⏱️\n#免運活動 #這時候買最划算" },
+            { id: "promo_03", mainCategory: "promotion", subCategory: "組合優惠", title: "促銷｜1+1 組合價", platforms: ["instagram", "facebook"], tags: ["#組合優惠", "#囤貨"], content: "👯‍♀️ 好事成雙！1+1 > 2\n\n單買覺得貴？那就找朋友一起湊！\n{商品A} + {商品B} 組合價只要 ${金額} 💰\n（原價 ${原價}，現省 ${省下金額}！）\n\n快 Tag 你的好閨蜜/好兄弟一起下單！👇\n#團購 #組合價 #省錢攻略" },
+            { id: "promo_06", mainCategory: "promotion", subCategory: "福利品", title: "促銷｜NG良品出清", platforms: ["instagram", "story"], tags: ["#惜物", "#出清"], content: "💔 雖然有點小受傷，但依然很好用。\n\n【NG 良品特賣會】開始！\n這些商品只有微小瑕疵（不影響使用），\n我們決定用 {折扣} 折的價格讓它們找到新家。🏠\n\n數量極少，想要撿便宜的朋友別錯過！\n#NG品出清 #環保 #撿便宜" },
+            { id: "greet_halloween_01", mainCategory: "greeting", subCategory: "萬聖節", title: "節日｜萬聖節搞怪", platforms: ["instagram", "story"], tags: ["#萬聖節", "#不給糖就搗蛋"], content: "🎃 Happy Halloween！👻\n\n不給糖就搗蛋！\n今天大家有變裝嗎？\n你是扮成可愛的南瓜，還是嚇人的吸血鬼呢？🧛‍♂️\n\n我們特別準備了「萬聖節限定驚喜」要送給來店的搗蛋鬼們！🍬\n只要 {任務內容} 即可獲得。\n\n快來找我們玩！🕸️\n#萬聖節快樂 #變裝派對 #TrickOrTreat" },
+            { id: "greet_val_02", mainCategory: "greeting", subCategory: "情人節", title: "節日｜七夕/情人節告白", platforms: ["instagram", "facebook"], tags: ["#情人節", "#告白"], content: "💘 愛，要大聲說出來！\n\n在這個充滿粉紅泡泡的日子，\n有想對誰說的話，卻一直藏在心裡嗎？\n\n讓 {產品名} 成為你的告白神助攻！💌\n送給最特別的 {對象}，傳達你的心意。\n\n祝大家 甜蜜蜜過節！🥰\n不管有沒有情人，都要好好愛自己喔！\n#七夕 #情人節禮物 #放閃" },
+            { id: "greet_double_tenth_01", mainCategory: "greeting", subCategory: "雙十國慶", title: "節日｜雙十連假優惠", platforms: ["facebook", "instagram"], tags: ["#雙十節", "#普天同慶"], content: "🇹🇼 雙十國慶快樂！\n\n連假開始啦！大家有計畫去哪裡玩嗎？\n慶祝生日，當然要有好康！🎉\n\n【雙十限定優惠】\n🔥 全館滿 {金額} 現折 {金額}\n🔥 指定商品 {折數} 折\n\n放假也要記得來逛逛，\n把喜歡的東西帶回家！🛍️\n#國慶日 #連假 #優惠 #買買買" },
+            { id: "school_01", mainCategory: "greeting", subCategory: "開學準備", title: "開學｜姓名貼準備好了嗎？", platforms: ["facebook", "instagram"], tags: ["#開學", "#姓名貼"], content: "🎒 開學倒數！媽媽們的惡夢(誤)要結束了！\n\n書包、水壺、餐袋... 裝備都齊全了嗎？\n最重要的「姓名貼」千萬別忘了！\n\n我們要讓寶貝的東西不搞丟，\n還要貼得超可愛！✨\n\n現在下單還來得及趕上開學喔！\n#開學準備 #姓名貼 #幼兒園 #小學" },
+            { id: "greet_01", mainCategory: "greeting", subCategory: "新年", title: "節日｜新年開工", platforms: ["instagram", "facebook"], tags: ["#開工大吉", "#新年"], content: "🧨 開工大吉！\n\n年假結束了，大家的靈魂回來了嗎？😂\n新的一年，我們準備了更多好產品要分享給大家。\n\n祝大家開工順利，業績長紅，\n紅包賺飽飽，升遷沒煩惱！💼\n#開工 #上班族 #加油" },
+            { id: "greet_04", mainCategory: "greeting", subCategory: "中秋節", title: "節日｜中秋烤肉祝福", platforms: ["story", "threads"], tags: ["#中秋節", "#月圓人團圓"], content: "🌕 月圓人團圓，肚子也圓圓！\n\n祝大家中秋節快樂！\n烤肉要吃，柚子要剝，\n但熱量... 我們明天再面對吧 😂\n\n有沒有人今晚也是烤肉馬拉松？🍖\n#中秋快樂 #烤肉 #連假" },
             { id: "greet_05", mainCategory: "greeting", subCategory: "聖誕節", title: "節日｜聖誕節交換禮物", platforms: ["instagram"], tags: ["#聖誕節", "#禮物"], content: "🎄 Merry Christmas! 🎅\n\n還在煩惱交換禮物送什麼嗎？\n送 {商品名} 絕對不踩雷！🎁\n\n實用又可愛，\n保證讓收到的人會心一笑！🥰\n今晚準備去哪裡慶祝呢？✨\n#聖誕快樂 #交換禮物 #溫馨" },
+            { id: "kids_day_01", mainCategory: "greeting", subCategory: "兒童節", title: "節日｜兒童節快樂", platforms: ["instagram", "facebook"], tags: ["#兒童節", "#寶貝"], content: "🎈 兒童節快樂！\n\n今天是屬於寶貝們的日子，\n不管幾歲，都要保持一顆童心喔！👶\n\n爸媽們今天準備了什麼驚喜給寶貝呢？\n歡迎留言分享！👇\n#兒童節 #童心未泯 #親子時光" },
+            { id: "texture_01", mainCategory: "feature", subCategory: "材質細節", title: "質感｜防水抗刮測試", platforms: ["instagram", "reels"], tags: ["#防水", "#實測"], content: "✨ 真的防水嗎？實測給你看！\n\n很多客人都擔心貼紙碰到水會糊掉，\n我們直接把 {產品} 丟進水裡... 💦\n\n(請搭配影片/照片)\n\n看！完全沒事！而且抗刮不殘膠。\n給孩子用的東西，我們比你更龜毛。😎\n#防水貼紙 #品質保證 #實測" },
+            { id: "feat_01", mainCategory: "feature", subCategory: "使用教學", title: "教學｜新手教學指南", platforms: ["instagram", "facebook"], tags: ["#教學", "#新手必看"], content: "🤔 剛入手 {產品名} 卻不知道從何下手？\n別擔心，小編手把手教你！\n\nSTEP 1️⃣：{步驟一說明}\nSTEP 2️⃣：{步驟二說明}\nSTEP 3️⃣：{步驟三說明}\n\n只要跟著做，也能輕鬆上手喔！✨\n收藏這篇，隨時拿出來複習！🔖\n#使用教學 #攻略 #乾貨" },
+            { id: "feat_04", mainCategory: "feature", subCategory: "對比分析", title: "乾貨｜A款 vs B款 怎麼選？", platforms: ["instagram", "facebook"], tags: ["#比較", "#選購指南"], content: "⚖️ {產品A} 和 {產品B} 到底差在哪？\n很多客人都會問這題，今天一次講清楚！\n\n🅰️ {產品A}：適合 {適合族群}\n👉 特色：{特色A}\n\n🅱️ {產品B}：適合 {適合族群}\n👉 特色：{特色B}\n\n簡單來說：\n喜歡 {需求1} 選 A，重視 {需求2} 選 B！\n這樣大家會選了嗎？🧐\n#懶人包 #選購攻略 #比較圖" },
+            { id: "feat_05", mainCategory: "feature", subCategory: "隱藏用法", title: "乾貨｜你不知道的隱藏用法", platforms: ["instagram", "reels"], tags: ["#隱藏版", "#生活駭客"], content: "🤫 90% 的人都不知道！\n{產品名} 除了 {主要功能}，\n其實還可以這樣用... 🤯\n\n【隱藏用法大公開】\n👉 {隱藏用法說明}\n\n試過的都說回不去了！\n趕快拿出手邊的 {產品} 試試看吧！✨\n#隱藏功能 #小撇步 #生活智慧王" },
+            { id: "feat_06", mainCategory: "feature", subCategory: "客戶見證", title: "口碑｜客人真實回饋", platforms: ["story", "instagram"], tags: ["#好評", "#見證"], content: "💬 「{客人好評金句}」\n\n收到這位客人的回饋，小編直接感動哭 😭\n\n感謝大家這麼喜歡 {產品名}，\n你們的滿意就是我們前進的動力！💪\n\n如果你也有使用心得，\n歡迎私訊或 Tag 我們分享喔！❤️\n#好評分享 #客人實拍 #感謝" },
+            { id: "photo_01", mainCategory: "interaction", subCategory: "徵圖活動", title: "徵圖｜小小代言人募集", platforms: ["instagram", "facebook"], tags: ["#買家秀", "#徵圖"], content: "📸 徵求小小代言人！\n\n你家寶貝也有用我們的 {產品} 嗎？\n拍下他們可愛的使用照，\n並 Tag 我們 @{帳號}，\n\n就有機會獲得 {購物金/小禮物} 喔！🎁\n我們想看到更多可愛的笑容！🥰\n#買家秀 #寶寶穿搭 #徵圖" },
+            { id: "inter_01", mainCategory: "interaction", subCategory: "二選一", title: "互動｜終極二選一", platforms: ["story", "threads"], tags: ["#二選一", "#選擇題"], content: "🔴 還是 🔵？\n\n如果是你，{商品種類} 一定要選：\n🅰️ {選項A} (例如：可愛風)\n🅱️ {選項B} (例如：簡約風)\n\n我是絕對的 A 派！你們呢？\n底下留言 PK 一下！⚔️\n#風格 #選擇障礙 #互動" },
+            { id: "inter_05", mainCategory: "interaction", subCategory: "許願池", title: "互動｜新品許願池", platforms: ["story", "instagram"], tags: ["#許願池", "#問卷"], content: "🧞‍♂️ 許願池開放中！\n\n下個月我們打算開發新品，\n大家最想要什麼 {產品類型/顏色}？\n\n大膽許願！說不定老闆真的會實現喔！✨\n👇 留言告訴我們\n#許願 #新品開發 #聽聽大家的聲音" },
+            { id: "inter_03", mainCategory: "interaction", subCategory: "點名", title: "互動｜Tag 朋友", platforms: ["instagram", "facebook"], tags: ["#點名", "#Tag朋友"], content: "👉 Tag 你身邊那個「{特徵}」的朋友。\n\n例如：\n👉 Tag 你身邊那個「永遠都在遲到」的朋友 😂\n👉 Tag 你身邊那個「超愛買貼紙」的朋友 🎀\n\n看誰敢不承認！\n#朋友 #點名 #好笑" },
+            { id: "inter_07", mainCategory: "interaction", subCategory: "提問", title: "互動｜你問我答", platforms: ["story"], tags: ["#AMA", "#問答"], content: "🙋‍♀️ 今天提早下班，心情好！\n開放問答 30 分鐘 ⏱️\n\n關於客製化、關於材質、或是關於小編私事(?)\n通通都可以問！\n\n👇 放馬過來吧\n#QA #聊天 #閒聊" },
+            { id: "proof_01", mainCategory: "announcement", subCategory: "校稿須知", title: "公告｜客製化校稿說明", platforms: ["facebook", "line"], tags: ["#客製化", "#校稿"], content: "📢 訂購客製化商品的朋友請注意！\n\n為了確保成品完美，\n設計師製作完稿後會傳送「示意圖」給您確認。\n\n⚠️ 請務必檢查：\n1. 名字/文字是否正確\n2. 字體/圖案是否喜歡\n\n確認回覆後才會開始製作喔！\n請大家留意私訊/信箱 📧\n#客製化 #校稿 #重要通知" },
             { id: "announce_01", mainCategory: "announcement", subCategory: "休假公告", title: "公告｜連假/員旅公休", platforms: ["facebook", "instagram"], tags: ["#公休", "#暫停出貨"], content: "📢【公休公告】\n\n我們要去充電啦！🔋\n{日期起} 至 {日期迄}，賣場暫停出貨、客服暫停回覆。\n\n這段期間的訂單，將於 {恢復日期} 依序出貨。\n造成不便請見諒，等我們回來喔！❤️\n#員工旅遊 #放假 #充電中" },
+            { id: "announce_02", mainCategory: "announcement", subCategory: "物流延遲", title: "公告｜物流延遲通知", platforms: ["story", "facebook"], tags: ["#物流", "#抱歉"], content: "⚠️【物流延遲通知】\n\n因為 {原因: 雙11爆單/颱風} 的關係，\n目前的物流配送速度較慢 🐢\n\n大家的包裹可能需要多等 {天數} 天，\n真的很抱歉！我們會緊盯物流進度的！🙏\n感謝大家的耐心等待。\n#公告 #物流 #配送" },
+            { id: "announce_03", mainCategory: "announcement", subCategory: "詐騙提醒", title: "公告｜防詐騙提醒", platforms: ["facebook", "story"], tags: ["#反詐騙", "#重要"], content: "🚨【重要提醒！防範詐騙】🚨\n\n最近有詐騙集團冒充我們，\n請大家注意：\n\n❌ 我們「不會」主動打電話要求操作 ATM\n❌ 我們「不會」要求解除分期付款\n\n接到可疑電話請直接掛斷，或私訊求證！\n大家要保護好自己的荷包喔！🛡️\n#防詐騙 #小心 #注意" },
+            { id: "announce_05", mainCategory: "announcement", subCategory: "得獎名單", title: "公告｜抽獎開獎", platforms: ["story", "facebook"], tags: ["#開獎", "#恭喜"], content: "🏆【得獎名單公布】🏆\n\n恭喜以下幸運兒獲得 {獎品}：\n\n🎉 @{得獎者帳號}\n\n請在 {截止日期} 前私訊小編領獎，\n逾期視同放棄喔！\n\n沒抽中的朋友別氣餒，\n下一波活動很快就來了！✨\n#開獎 #幸運兒 #恭喜" },
+            { id: "th_daily_01", mainCategory: "threads", subCategory: "小編日常", title: "Threads｜包貨地獄", platforms: ["threads"], tags: ["#包貨", "#日常"], content: "雖然包貨包到手快斷了，\n但看到大家的訂單備註寫著「辛苦了」，\n瞬間血條全滿！💪\n你們都是天使嗎？👼\n#包貨日常 #天使客人" },
+            { id: "th_01", mainCategory: "threads", subCategory: "工作厭世", title: "Threads｜不想上班", platforms: ["threads"], tags: ["#厭世", "#週一"], content: "我的靈魂還留在床上，\n只有肉體來公司了。👻\n#週一症候群 #不想上班" },
+            { id: "th_02", mainCategory: "threads", subCategory: "小確幸", title: "Threads｜奶茶哲學", platforms: ["threads"], tags: ["#手搖飲", "#快樂"], content: "錢買不到快樂，\n但錢可以買珍珠奶茶，\n那基本上是一樣的意思。🧋\n#真理 #下午茶" },
+            { id: "th_03", mainCategory: "threads", subCategory: "創業", title: "Threads｜創業心聲", platforms: ["threads"], tags: ["#創業", "#老闆"], content: "創業就是：\n白天當老闆，晚上睡地板。\n自己選的路，跪著也要走完。😭\n各位老闆們加油！\n#創業路 #甘苦談" },
+            { id: "th_04", mainCategory: "threads", subCategory: "天氣", title: "Threads｜下雨好煩", platforms: ["threads"], tags: ["#下雨", "#發霉"], content: "這雨再下下去，\n我頭上都要長香菇了。🍄\n太陽公公你是離職了嗎？\n#雨天 #心情" },
+            { id: "th_08", mainCategory: "threads", subCategory: "品牌", title: "Threads｜感謝祭", platforms: ["threads"], tags: ["#感謝", "#支持"], content: "今天看到一個熟客的名字又出現在訂單裡，\n真的覺得超級感動！🥺\n謝謝你們一直都在。\n#感謝 #熟客 #愛你們" }
         ];
-
-        // --- 全域組件定義 (避免 ReferenceError) ---
-        const Footer = () => (
-            <footer className="py-6 text-center text-slate-400 text-xs border-t border-slate-100 bg-white shrink-0">
-                <div className="flex justify-center flex-wrap gap-3 mb-4 px-4">
-                    <a href="https://www.instagram.com/ashunhouse/" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-slate-500 hover:text-pink-600 transition-colors font-bold bg-slate-50 px-3 py-2 rounded-xl hover:bg-pink-50 border border-slate-100">
-                        <Instagram className="w-4 h-4" /> IG
-                    </a>
-                    <a href="https://www.threads.net/@ashunhouse" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-slate-500 hover:text-black transition-colors font-bold bg-slate-50 px-3 py-2 rounded-xl hover:bg-slate-200 border border-slate-100">
-                        <AtSign className="w-4 h-4" /> Threads
-                    </a>
-                    <a href="https://myship.7-11.com.tw/general/detail/GM2511279067975" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-slate-500 hover:text-green-600 transition-colors font-bold bg-slate-50 px-3 py-2 rounded-xl hover:bg-green-50 border border-slate-100">
-                        <Package className="w-4 h-4" /> 賣貨便
-                    </a>
-                    <a href="http://shopee.tw/ashunhouse" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-slate-500 hover:text-orange-500 transition-colors font-bold bg-slate-50 px-3 py-2 rounded-xl hover:bg-orange-50 border border-slate-100">
-                        <ShoppingBag className="w-4 h-4" /> 蝦皮賣場
-                    </a>
-                </div>
-                <p className="font-bold text-slate-500 mb-1">Powered by Ashun+ 社群工具</p>
-                <p>適合貼紙品牌 / 小編 / 親子帳號使用 ✨</p>
-            </footer>
-        );
 
         const SocialMediaPlanner = () => {
             const [posts, setPosts] = useState(() => {
@@ -400,8 +303,7 @@
             const [currentView, setCurrentView] = useState('home'); 
             const [isFormOpen, setIsFormOpen] = useState(false);
             const [isTemplateModalOpen, setIsTemplateModalOpen] = useState(false); 
-            const [selectedTemplateCategory, setSelectedTemplateCategory] = useState('all');
-            const [selectedTags, setSelectedTags] = useState([]); // 新增：選中的標籤
+            const [selectedTemplateCategory, setSelectedTemplateCategory] = useState('all'); 
             const [viewMode, setViewMode] = useState('grid');
             const [aiTone, setAiTone] = useState(null); 
             const [mobileTab, setMobileTab] = useState('schedule');
@@ -462,13 +364,6 @@
                 });
             };
 
-            const toggleTag = (tag) => {
-                setSelectedTags(prev => {
-                    if (prev.includes(tag)) return prev.filter(t => t !== tag);
-                    return [...prev, tag];
-                });
-            };
-
             const handleImageUpload = (e) => {
                 const file = e.target.files[0];
                 if (file) {
@@ -477,17 +372,22 @@
                         const img = new Image();
                         img.onload = () => {
                             const canvas = document.createElement('canvas');
+                            // 設定最大寬度為 800px (足夠預覽用，大幅減少容量)
                             const maxWidth = 800;
                             let width = img.width;
                             let height = img.height;
+                            
                             if (width > maxWidth) {
                                 height = height * (maxWidth / width);
                                 width = maxWidth;
                             }
+                            
                             canvas.width = width;
                             canvas.height = height;
                             const ctx = canvas.getContext('2d');
                             ctx.drawImage(img, 0, 0, width, height);
+                            
+                            // 壓縮品質 0.7
                             const dataUrl = canvas.toDataURL('image/jpeg', 0.7);
                             setFormData(prev => ({ ...prev, image: dataUrl }));
                         };
@@ -588,11 +488,16 @@
                 }
             };
 
+            // 優化 1：新增隨機挑選模板功能
             const pickRandomTemplate = () => {
-                const threadsCategories = ['th_chat', 'th_growth', 'th_brand', 'th_obs', 'th_prod', 'th_emo'];
+                // 優先挑選 Threads 類型的 (morning ~ lazy)
+                const threadsCategories = ['morning', 'murmur', 'startup', 'growth', 'traffic', 'support', 'behind', 'tips', 'energy', 'interaction', 'seasonal', 'lazy', 'threads'];
                 const candidates = TEMPLATE_LIBRARY.filter(t => threadsCategories.includes(t.mainCategory));
+                
+                // 如果沒有 Threads 類型，則從全部挑選
                 const pool = candidates.length > 0 ? candidates : TEMPLATE_LIBRARY;
                 const randomTemplate = pool[Math.floor(Math.random() * pool.length)];
+                
                 applyLibraryTemplate(randomTemplate);
             };
 
@@ -601,7 +506,7 @@
                     id: Date.now(),
                     title: template.title,
                     content: template.content, 
-                    shortContent: template.platforms.includes('threads') ? template.content : '', 
+                    shortContent: template.platforms.includes('threads') ? template.content : '', // 如果是 Threads 模板，自動填入短文案
                     platforms: template.platforms || ['instagram'],
                     date: '',
                     time: '',
@@ -620,7 +525,11 @@
             };
 
             const handleBackup = () => {
-                const data = { posts, productIdeas, pastPosts };
+                const data = {
+                    posts: posts,
+                    productIdeas: productIdeas,
+                    pastPosts: pastPosts
+                };
                 const element = document.createElement("a");
                 const file = new Blob([JSON.stringify(data)], {type: 'application/json'});
                 element.href = URL.createObjectURL(file);
@@ -633,6 +542,7 @@
             const handleRestore = (e) => {
                 const file = e.target.files[0];
                 if (!file) return;
+                
                 const reader = new FileReader();
                 reader.onload = (e) => {
                     try {
@@ -643,7 +553,9 @@
                             setPastPosts(data.pastPosts || []);
                             alert('🎉 資料還原成功！');
                         }
-                    } catch (err) { alert('資料格式錯誤，無法還原 😢'); }
+                    } catch (err) {
+                        alert('資料格式錯誤，無法還原 😢');
+                    }
                 };
                 reader.readAsText(file);
             };
@@ -653,6 +565,7 @@
                     alert('目前沒有已排程的貼文可以匯出喔！');
                     return;
                 }
+
                 let exportText = "📅 Ashun+ 社群貼文週報\n=========================\n\n";
                 scheduledPosts.forEach((post, index) => {
                     exportText += `【貼文 ${index + 1}】${post.title || '無標題'}\n`;
@@ -669,6 +582,7 @@
                     }
                     exportText += `\n=========================\n\n`;
                 });
+
                 const element = document.createElement("a");
                 const file = new Blob([exportText], {type: 'text/plain'});
                 element.href = URL.createObjectURL(file);
@@ -692,6 +606,7 @@
             const handleQuickIdeaSubmit = (e) => {
                 e.preventDefault();
                 if (!quickIdea.trim()) return;
+                
                 const newIdea = {
                     id: Date.now(),
                     title: quickIdea.split('\n')[0].substring(0, 20) + (quickIdea.length > 20 ? '...' : ''), 
@@ -703,6 +618,7 @@
                     status: 'idea',
                     image: null
                 };
+                
                 setPosts([newIdea, ...posts]);
                 setQuickIdea('');
             };
@@ -794,10 +710,6 @@
                 if (scenario === 'story') {
                     resetForm('instagram');
                     setIsFormOpen(true);
-                } else if (scenario === 'threads_hub') {
-                    setSelectedTemplateCategory('th_chat');
-                    setSelectedTags([]); 
-                    setIsTemplateModalOpen(true);
                 } else if (scenario === 'new_arrival' || scenario === 'promotion' || scenario === 'greeting') {
                     setSelectedTemplateCategory(scenario);
                     setIsTemplateModalOpen(true);
@@ -809,19 +721,10 @@
             };
 
             const filteredTemplates = useMemo(() => {
-                let templates = TEMPLATE_LIBRARY;
-                if (selectedTemplateCategory !== 'all') {
-                    templates = templates.filter(t => t.mainCategory === selectedTemplateCategory);
-                }
-                if (selectedTags.length > 0) {
-                    templates = templates.filter(t => {
-                        return selectedTags.some(tag => t.tags && t.tags.includes(tag));
-                    });
-                }
-                return templates;
-            }, [selectedTemplateCategory, selectedTags]);
+                if (selectedTemplateCategory === 'all') return TEMPLATE_LIBRARY;
+                return TEMPLATE_LIBRARY.filter(t => t.mainCategory === selectedTemplateCategory);
+            }, [selectedTemplateCategory]);
 
-            // --- 修復變數定義 (Added Missing Variables) ---
             const ideaPosts = posts.filter(post => post.status === 'idea');
             const scheduledPosts = posts
                 .filter(post => post.status !== 'idea')
@@ -830,7 +733,6 @@
                     const dateB = b.date ? new Date(`${b.date}T${b.time || '00:00'}`) : new Date(9999, 11, 31);
                     return dateA - dateB;
                 });
-            // ----------------------------------------------
 
             const getPlatformIcon = (platform, size = "w-5 h-5") => {
                 switch (platform) {
@@ -890,6 +792,27 @@
                 </div>
             );
 
+            const Footer = () => (
+                <footer className="py-6 text-center text-slate-400 text-xs border-t border-slate-100 bg-white shrink-0">
+                    <div className="flex justify-center flex-wrap gap-3 mb-4 px-4">
+                        <a href="https://www.instagram.com/ashunhouse/" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-slate-500 hover:text-pink-600 transition-colors font-bold bg-slate-50 px-3 py-2 rounded-xl hover:bg-pink-50 border border-slate-100">
+                            <Instagram className="w-4 h-4" /> IG
+                        </a>
+                        <a href="https://www.threads.net/@ashunhouse" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-slate-500 hover:text-black transition-colors font-bold bg-slate-50 px-3 py-2 rounded-xl hover:bg-slate-200 border border-slate-100">
+                            <AtSign className="w-4 h-4" /> Threads
+                        </a>
+                        <a href="https://myship.7-11.com.tw/general/detail/GM2511279067975" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-slate-500 hover:text-green-600 transition-colors font-bold bg-slate-50 px-3 py-2 rounded-xl hover:bg-green-50 border border-slate-100">
+                            <Package className="w-4 h-4" /> 賣貨便
+                        </a>
+                        <a href="http://shopee.tw/ashunhouse" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 text-slate-500 hover:text-orange-500 transition-colors font-bold bg-slate-50 px-3 py-2 rounded-xl hover:bg-orange-50 border border-slate-100">
+                            <ShoppingBag className="w-4 h-4" /> 蝦皮賣場
+                        </a>
+                    </div>
+                    <p className="font-bold text-slate-500 mb-1">Powered by Ashun+ 社群工具</p>
+                    <p>適合貼紙品牌 / 小編 / 親子帳號使用 ✨</p>
+                </footer>
+            );
+
             // Home View Component
             const HomeView = () => (
                 <div className="flex-1 flex flex-col items-center justify-center p-4 bg-gradient-to-b from-indigo-50/50 to-white overflow-y-auto fade-in">
@@ -919,23 +842,7 @@
                         </div>
 
                         {/* Scenario Grid */}
-                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                            {/* 1. Threads 專區 (Highlight) */}
-                            <button 
-                                onClick={() => handleScenarioClick('threads_hub')}
-                                className="bg-gradient-to-br from-stone-50 to-stone-100 p-4 rounded-xl shadow-sm border border-stone-200 hover:shadow-lg hover:-translate-y-1 transition-all flex flex-col items-center gap-2 group col-span-2 md:col-span-2 relative overflow-hidden"
-                            >
-                                <div className="absolute top-0 right-0 bg-black text-white text-[10px] px-2 py-1 rounded-bl-lg font-bold">日更神器</div>
-                                <div className="bg-white p-3 rounded-full group-hover:scale-110 transition-transform shadow-sm">
-                                    <AtSign className="w-8 h-8 text-black" />
-                                </div>
-                                <div>
-                                    <h3 className="font-bold text-slate-800 text-lg">🧵 Threads 小編聊天室</h3>
-                                    <p className="text-xs text-slate-500">沒靈感？來這裡找話題聊天！</p>
-                                </div>
-                            </button>
-
-                            {/* 2. 新品/促銷 */}
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
                             <button 
                                 onClick={() => handleScenarioClick('new_arrival')}
                                 className="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all flex flex-col items-center gap-2 group"
@@ -949,7 +856,6 @@
                                 </div>
                             </button>
 
-                            {/* 3. 節慶祝福 */}
                             <button 
                                 onClick={() => handleScenarioClick('greeting')}
                                 className="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all flex flex-col items-center gap-2 group"
@@ -962,23 +868,18 @@
                                     <p className="text-[10px] text-slate-400 hidden md:block">溫暖問候，拉近距離</p>
                                 </div>
                             </button>
-                        </div>
-                        
-                        {/* Secondary Row */}
-                        <div className="grid grid-cols-2 gap-4 max-w-lg mx-auto">
-                             <button 
+
+                            <button 
                                 onClick={() => handleScenarioClick('announcement')}
-                                className="bg-white p-3 rounded-xl shadow-sm border border-slate-100 hover:shadow-md hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group"
+                                className="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:shadow-lg hover:-translate-y-1 transition-all flex flex-col items-center gap-2 group"
                             >
-                                <Megaphone className="w-5 h-5 text-blue-500" />
-                                <span className="font-bold text-slate-600 text-sm">📢 重要佈告</span>
-                            </button>
-                             <button 
-                                onClick={() => {resetForm(); setIsFormOpen(true);}}
-                                className="bg-white p-3 rounded-xl shadow-sm border border-slate-100 hover:shadow-md hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 group"
-                            >
-                                <Edit2 className="w-5 h-5 text-slate-400" />
-                                <span className="font-bold text-slate-600 text-sm">📝 空白草稿</span>
+                                <div className="bg-blue-100 p-3 rounded-full group-hover:bg-blue-200 transition-colors">
+                                    <Megaphone className="w-6 h-6 text-blue-600" />
+                                </div>
+                                <div>
+                                    <h3 className="font-bold text-slate-700 text-sm md:text-base">📢 重要佈告</h3>
+                                    <p className="text-[10px] text-slate-400 hidden md:block">異動通知，建立信任</p>
+                                </div>
                             </button>
                         </div>
 
@@ -1021,6 +922,7 @@
                                 </div>
                             </div>
                             <div className="flex items-center gap-2">
+                                {/* 備份與還原按鈕 */}
                                 <button onClick={handleBackup} className="p-2 hover:bg-slate-100 text-slate-400 hover:text-slate-600 rounded-full transition-colors" title="備份資料">
                                     <Archive className="w-5 h-5" />
                                 </button>
@@ -1044,7 +946,7 @@
 
                     {/* Main Layout */}
                     <div className="flex-1 flex flex-col md:flex-row overflow-hidden max-w-[1600px] mx-auto w-full relative">
-                        {/* Sidebar */}
+                        {/* 左側：靈感規劃區 (Sidebar) */}
                         <aside className={`w-full md:w-80 bg-slate-50 border-b md:border-b-0 md:border-r border-slate-200 flex flex-col shrink-0 h-full md:h-full transition-all absolute md:relative z-0 ${mobileTab === 'ideas' ? 'flex' : 'hidden md:flex'}`}>
                             <div className="bg-white border-b border-slate-200 shadow-sm z-10 shrink-0">
                                 <div className="p-3">
@@ -1143,7 +1045,7 @@
                             </div>
                         </aside>
 
-                        {/* Main Content ... (Same) */}
+                        {/* 右側：正式排程區 */}
                         <main className={`flex-1 flex flex-col h-full md:h-full overflow-hidden bg-white relative z-0 transition-all ${mobileTab === 'schedule' ? 'flex' : 'hidden md:flex'}`}>
                             {/* Toolbar */}
                             <div className="p-3 border-b border-slate-100 flex justify-between items-center gap-3 bg-white">
@@ -1240,17 +1142,15 @@
                         </div>
                     </div>
 
-                    {/* Template Library Modal (Updated UI with Tag Filter) */}
+                    {/* Template Library Modal */}
                     {isTemplateModalOpen && (
                         <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex justify-center items-end sm:items-center p-0 sm:p-4">
                             <div className="bg-white rounded-t-2xl sm:rounded-2xl shadow-2xl w-full max-w-4xl h-[85vh] flex flex-col animate-[fadeIn_0.2s_ease-out] sm:h-[85vh] h-[95vh] modal-content-mobile">
-                                <div className="p-6 border-b border-slate-100 flex justify-between items-center bg-gradient-to-r from-indigo-50 to-white rounded-t-2xl shrink-0">
-                                    <div><h2 className="text-2xl font-bold text-slate-800 flex items-center gap-2"><Book className="w-6 h-6 text-indigo-600" /> 文案模板庫</h2><p className="text-slate-500 text-sm mt-1 hidden sm:block">依照情境與狀態，快速找到適合的靈感！</p></div>
+                                <div className="p-6 border-b border-slate-100 flex justify-between items-center bg-gradient-to-r from-indigo-50 to-white rounded-t-2xl">
+                                    <div><h2 className="text-2xl font-bold text-slate-800 flex items-center gap-2"><Book className="w-6 h-6 text-indigo-600" /> 文案模板庫</h2><p className="text-slate-500 text-sm mt-1 hidden sm:block">依照情境分類，快速找到適合的貼文靈感！</p></div>
                                     <button onClick={() => setIsTemplateModalOpen(false)} className="text-slate-400 hover:text-slate-600 p-2 hover:bg-slate-100 rounded-full transition-colors"><X className="w-6 h-6" /></button>
                                 </div>
-                                
-                                {/* 1. Category Filter */}
-                                <div className="p-2 bg-slate-50/50 border-b border-slate-100 overflow-x-auto scrollbar-hide shrink-0">
+                                <div className="p-2 bg-slate-50/50 border-b border-slate-100 overflow-x-auto scrollbar-hide">
                                     <div className="flex gap-2 min-w-max px-4">
                                         <button onClick={() => setSelectedTemplateCategory('all')} className={`px-4 py-2 rounded-full text-sm font-bold transition-all ${selectedTemplateCategory === 'all' ? 'bg-slate-800 text-white shadow-md' : 'bg-white text-slate-600 hover:bg-slate-100'}`}>全部顯示</button>
                                         {Object.entries(CATEGORY_LABELS).map(([key, config]) => (
@@ -1258,32 +1158,6 @@
                                         ))}
                                     </div>
                                 </div>
-
-                                {/* 2. Tag Filter Area (Visible mostly for Threads or All) */}
-                                {(selectedTemplateCategory.startsWith('th_') || selectedTemplateCategory === 'all') && (
-                                    <div className="px-6 py-3 bg-indigo-50/30 border-b border-indigo-100 overflow-x-auto shrink-0">
-                                        <div className="flex gap-4 min-w-max">
-                                            {Object.entries(THREADS_TAG_GROUPS).map(([groupName, tags]) => (
-                                                <div key={groupName} className="flex items-center gap-2">
-                                                    <span className="text-xs font-bold text-indigo-300">{groupName}</span>
-                                                    {tags.map(tag => (
-                                                        <button 
-                                                            key={tag} 
-                                                            onClick={() => toggleTag(tag)}
-                                                            className={`px-2 py-1 rounded text-xs font-bold transition-all border ${selectedTags.includes(tag) ? 'bg-indigo-500 text-white border-indigo-500 shadow-sm' : 'bg-white text-slate-500 border-slate-200 hover:border-indigo-300 hover:text-indigo-500'}`}
-                                                        >
-                                                            {tag}
-                                                        </button>
-                                                    ))}
-                                                </div>
-                                            ))}
-                                            {selectedTags.length > 0 && (
-                                                <button onClick={() => setSelectedTags([])} className="px-2 py-1 rounded text-xs font-bold text-red-400 hover:bg-red-50 transition-colors">清除</button>
-                                            )}
-                                        </div>
-                                    </div>
-                                )}
-
                                 <div className="flex-1 overflow-y-auto p-6 bg-slate-50 custom-scrollbar">
                                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                                         {filteredTemplates.map(template => (
@@ -1296,7 +1170,7 @@
                                                                 <div className={`text-[10px] font-bold px-2 py-1 rounded border ${CATEGORY_LABELS[template.mainCategory].color.replace('bg-', 'bg-opacity-20 ')}`}>{CATEGORY_LABELS[template.mainCategory].label}</div>
                                                                 {template.subCategory && (<div className="text-[10px] font-bold px-2 py-1 rounded border bg-slate-100 text-slate-600">{template.subCategory}</div>)}
                                                             </div>
-                                                            {/* 優化 2：情緒/狀態標籤顯示 */}
+                                                            {/* 優化 2：情緒標籤顯示 */}
                                                             {template.mood && (
                                                                 <div className="text-[10px] font-bold text-slate-500 flex items-center gap-1">
                                                                     心情：<span className="bg-yellow-50 text-yellow-700 px-1.5 rounded">{template.mood}</span>
@@ -1310,18 +1184,14 @@
                                                         <p className="whitespace-pre-wrap">{template.content}</p>
                                                         <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-slate-50 to-transparent"></div>
                                                     </div>
-                                                    {/* 優化 3：使用提醒 (顯示標籤) */}
+                                                    {/* 優化 3：使用提醒 */}
                                                     {template.usageTip && (
                                                         <div className="mb-2 text-xs text-indigo-600 font-bold bg-indigo-50 p-1.5 rounded-lg border border-indigo-100 flex items-center gap-1">
                                                             {template.usageTip}
                                                         </div>
                                                     )}
                                                     <div className="flex flex-wrap gap-1.5 mb-2">
-                                                        {template.tags.map(tag => (
-                                                            <span key={tag} className={`text-[10px] px-1.5 py-0.5 rounded border transition-colors ${selectedTags.includes(tag) ? 'bg-yellow-100 text-yellow-800 border-yellow-200 font-bold' : 'bg-slate-100 text-slate-500 border-slate-200'}`}>
-                                                                {tag}
-                                                            </span>
-                                                        ))}
+                                                        {template.tags.map(tag => (<span key={tag} className="text-[10px] text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded">{tag}</span>))}
                                                     </div>
                                                 </div>
                                                 <div className="p-4 border-t border-slate-100 bg-slate-50/50 rounded-b-xl">
@@ -1331,6 +1201,109 @@
                                         ))}
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    )}
+
+                    {/* API Key Modal & Edit/Add Modal (Same as before) */}
+                    {showApiKeyModal && <ApiKeyModal />}
+                    {isFormOpen && (
+                        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-50 flex justify-center items-end sm:items-center p-0 sm:p-4">
+                            <div className="bg-white rounded-t-2xl sm:rounded-2xl shadow-2xl w-full sm:w-[95%] max-w-2xl flex flex-col h-[95vh] sm:max-h-[90vh] animate-[fadeIn_0.2s_ease-out] modal-content-mobile">
+                                <div className="p-5 border-b border-slate-100 flex justify-between items-center shrink-0">
+                                    <h2 className="text-xl font-bold text-slate-800">{formData.id && formData.status !== 'idea' ? '編輯貼文' : '貼文排程設定'}</h2>
+                                    <button onClick={() => setIsFormOpen(false)} className="text-slate-400 hover:text-slate-600 p-1 hover:bg-slate-100 rounded-full transition-colors"><X className="w-6 h-6" /></button>
+                                </div>
+                                <form onSubmit={handleSubmit} className="p-6 space-y-6 overflow-y-auto custom-scrollbar flex-1">
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <div className="space-y-4">
+                                            <div>
+                                                <label className="block text-sm font-bold text-slate-700 mb-2">發布平台 (可複選)</label>
+                                                <div className="flex gap-2">
+                                                    {['instagram', 'facebook', 'threads'].map(p => {
+                                                        const isSelected = formData.platforms.includes(p);
+                                                        return (
+                                                            <button key={p} type="button" onClick={() => togglePlatform(p)} className={`flex-1 py-2.5 px-2 rounded-xl border flex flex-col items-center justify-center gap-1 transition-all ${isSelected ? 'bg-indigo-50 border-indigo-500 text-indigo-700 ring-1 ring-indigo-500' : 'bg-white border-slate-200 text-slate-500 hover:bg-slate-50'}`}>
+                                                                {getPlatformIcon(p, "w-5 h-5")}<span className="text-[10px] font-bold uppercase">{getPlatformLabel(p)}</span>{isSelected && <div className="absolute top-[-4px] right-[-4px]"><Check className="w-3 h-3 text-white bg-indigo-500 rounded-full p-0.5" /></div>}
+                                                            </button>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <label className="block text-sm font-bold text-slate-700 mb-1.5">目前狀態</label>
+                                                <select name="status" value={formData.status} onChange={handleInputChange} className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none appearance-none font-medium text-slate-700">
+                                                    <option value="draft">📝 撰寫草稿</option><option value="scheduled">⏰ 已排程</option><option value="published">✅ 已發布</option>
+                                                </select>
+                                            </div>
+                                            {formData.status === 'published' && (
+                                                <div className="bg-indigo-50 p-4 rounded-xl border border-indigo-100 animate-[fadeIn_0.3s_ease-out]">
+                                                    <div className="flex items-center gap-2 mb-3 text-indigo-800 font-bold text-sm"><BarChart2 className="w-4 h-4" />成效回顧</div>
+                                                    <div className="grid grid-cols-2 gap-3 mb-3">
+                                                        <div><label className="text-xs font-bold text-indigo-600 mb-1 block">按讚數</label><input type="number" name="likes" value={formData.likes} onChange={handleInputChange} className="w-full p-2 rounded-lg border border-indigo-200 text-sm focus:ring-2 focus:ring-indigo-500 outline-none text-center font-bold text-indigo-900" placeholder="0" /></div>
+                                                        <div><label className="text-xs font-bold text-indigo-600 mb-1 block">留言數</label><input type="number" name="comments" value={formData.comments} onChange={handleInputChange} className="w-full p-2 rounded-lg border border-indigo-200 text-sm focus:ring-2 focus:ring-indigo-500 outline-none text-center font-bold text-indigo-900" placeholder="0" /></div>
+                                                    </div>
+                                                    <div>
+                                                        <label className="text-xs font-bold text-indigo-600 mb-1 block">自評表現</label>
+                                                        <div className="flex bg-white rounded-lg p-1 border border-indigo-100">
+                                                            <button type="button" onClick={() => setFormData({...formData, rating: 'normal'})} className={`flex-1 py-1.5 text-xs font-bold rounded flex items-center justify-center gap-1 transition-all ${formData.rating === 'normal' ? 'bg-indigo-100 text-indigo-700 shadow-sm' : 'text-slate-400 hover:text-indigo-600'}`}><ThumbsUp className="w-3 h-3" /> 持平</button>
+                                                            <button type="button" onClick={() => setFormData({...formData, rating: 'good'})} className={`flex-1 py-1.5 text-xs font-bold rounded flex items-center justify-center gap-1 transition-all ${formData.rating === 'good' ? 'bg-orange-100 text-orange-600 shadow-sm' : 'text-slate-400 hover:text-orange-500'}`}><Flame className="w-3 h-3" /> 亮眼</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            )}
+                                            <div><label className="block text-sm font-bold text-slate-700 mb-1.5">貼文主題</label><input type="text" name="title" required placeholder="例如：母親節促銷活動" value={formData.title} onChange={handleInputChange} className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none placeholder:text-slate-400" /></div>
+                                            <div className="grid grid-cols-2 gap-3">
+                                                <div><label className="block text-sm font-bold text-slate-700 mb-1.5">日期</label><input type="date" name="date" value={formData.date} onChange={handleInputChange} className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none" /></div>
+                                                <div><label className="block text-sm font-bold text-slate-700 mb-1.5">時間</label><input type="time" name="time" value={formData.time} onChange={handleInputChange} className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none" /></div>
+                                            </div>
+                                            <div>
+                                                <label className="block text-sm font-bold text-slate-700 mb-2">圖片素材</label>
+                                                {!formData.image ? (
+                                                    <div onClick={() => fileInputRef.current.click()} className="border-2 border-dashed border-slate-300 rounded-xl p-6 flex flex-col items-center justify-center text-slate-400 hover:border-indigo-500 hover:text-indigo-500 hover:bg-indigo-50 transition-all cursor-pointer h-32 group">
+                                                        <Upload className="w-8 h-8 mb-2 group-hover:scale-110 transition-transform" /><span className="text-sm font-medium">點擊上傳圖片</span>
+                                                    </div>
+                                                ) : (
+                                                    <div className="relative rounded-xl overflow-hidden border border-slate-200 group h-48 bg-slate-100 flex items-center justify-center">
+                                                        <img src={formData.image} alt="Preview" className="h-full object-contain" />
+                                                        <button type="button" onClick={removeImage} className="absolute top-2 right-2 bg-white/90 p-1.5 rounded-full shadow-sm text-slate-500 hover:text-red-500 transition-colors"><XCircle className="w-5 h-5" /></button>
+                                                    </div>
+                                                )}
+                                                <input type="file" ref={fileInputRef} onChange={handleImageUpload} accept="image/*" className="hidden" />
+                                            </div>
+                                        </div>
+                                        <div className="flex flex-col h-full overflow-hidden">
+                                            <div className="mb-4">
+                                                <div className="flex justify-between items-center mb-2"><label className="block text-sm font-bold text-slate-700 flex items-center gap-2"><Sparkles className="w-4 h-4 text-indigo-500" /> AI 智能優化</label></div>
+                                                <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-2">
+                                                    {AI_TONES.map(tone => (<button key={tone.id} type="button" onClick={() => optimizeContent(tone)} disabled={isOptimizing} className="text-xs bg-indigo-50 text-indigo-700 px-2 py-2 rounded-lg border border-indigo-100 hover:bg-indigo-100 transition-all disabled:opacity-50 whitespace-nowrap flex justify-center items-center" title={tone.desc}>{tone.label}</button>))}
+                                                </div>
+                                                {aiTone && (<div className="text-[10px] text-slate-500 bg-slate-50 p-2 rounded-lg border border-slate-100 mt-1 animate-[fadeIn_0.3s_ease-out]">💡 平台建議：{aiTone.platforms} - {aiTone.desc}</div>)}
+                                            </div>
+                                            <div className="flex-1 flex flex-col gap-4 overflow-y-auto pr-1 custom-scrollbar" style={{minHeight: 0}}>
+                                                <div className="flex-1 flex flex-col min-h-[200px]">
+                                                    <div className="flex justify-between items-center mb-1.5"><label className="text-xs font-bold text-slate-600 flex items-center gap-1"><Instagram className="w-3.5 h-3.5" /> IG 長文案 (貼文/Reels)</label><span className="text-[10px] text-slate-400 bg-slate-100 px-1.5 rounded">{formData.content.length} 字</span></div>
+                                                    <textarea name="content" placeholder="在這裡撰寫 IG 完整貼文內容..." value={formData.content} onChange={handleInputChange} className="w-full h-full p-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none resize-none font-sans text-sm leading-relaxed"></textarea>
+                                                </div>
+                                                <div className="flex-shrink-0 h-[120px] flex flex-col">
+                                                    <div className="flex justify-between items-center mb-1.5"><label className="text-xs font-bold text-slate-600 flex items-center gap-1"><AtSign className="w-3.5 h-3.5" /> Threads 短文案 (限動/碎碎念)</label><span className="text-[10px] text-slate-400 bg-slate-100 px-1.5 rounded">{formData.shortContent?.length || 0} 字</span></div>
+                                                    <textarea name="shortContent" placeholder="在這裡撰寫 Threads 短句或限動文案..." value={formData.shortContent} onChange={handleInputChange} className="w-full h-full p-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 outline-none resize-none font-sans text-sm leading-relaxed"></textarea>
+                                                </div>
+                                            </div>
+                                            <div className="mt-3 pt-3 border-t border-slate-100">
+                                                <div className="flex flex-wrap gap-2">
+                                                    {Object.entries(HASHTAG_PRESETS).map(([category, tags]) => (
+                                                        <div key={category} className="flex flex-wrap gap-1 items-center"><span className="text-[10px] text-slate-400 min-w-[32px]">{category}</span>{tags.slice(0, 3).map(tag => (<button key={tag} type="button" onClick={() => addHashtag(tag)} className="px-1.5 py-0.5 bg-slate-100 text-slate-600 text-[10px] rounded hover:bg-indigo-100 hover:text-indigo-700 transition-colors">{tag}</button>))}</div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="pt-4 flex gap-3 border-t border-slate-100 mt-4 shrink-0">
+                                        <button type="button" onClick={() => setIsFormOpen(false)} className="flex-1 py-3 px-4 bg-white border border-slate-200 text-slate-600 rounded-xl hover:bg-slate-50 font-bold transition-colors">取消</button>
+                                        <button type="submit" className="flex-1 py-3 px-4 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 shadow-lg shadow-indigo-200 font-bold flex justify-center items-center gap-2 transition-transform active:scale-95"><Save className="w-5 h-5" /> {formData.status === 'idea' ? '轉為草稿' : '儲存設定'}</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     )}
